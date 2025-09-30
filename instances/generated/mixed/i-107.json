@@ -1,0 +1,2956 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "travel_time": 5,
+      "total_tardiness": 4,
+      "highest_tardiness": 0,
+      "total_waiting_time": 5,
+      "total_extra_time": 7,
+      "max_idle_time": 60,
+      "caregiver_preferences": 17,
+      "optional_patients": 200,
+      "missed_lunch_break": 80
+    },
+    "name": "mixed-generated-v2/instance-Saragoza-r_20-p_40-dp_1-apt_same_as_departure-h600-twm_at_service_end-rs_162-inc_0-opt_0-dtw_0-pcgr_0.75-sc_(2, 2)-sp_0.8",
+    "origin": "generated",
+    "horizon": 600,
+    "generator_info": {
+      "city": "Saragoza",
+      "radius": 20.0,
+      "patients": 40,
+      "departing_points": 1,
+      "arrival_points": 0,
+      "arrival_point_type": "same_as_departure",
+      "sync_rates": [
+        0.8,
+        0.0,
+        0.13,
+        0.07
+      ],
+      "incompatibility": 0.0,
+      "service_classes": [
+        2,
+        2
+      ],
+      "optional_rate": 0.0,
+      "double_time_window_rate": 0.0,
+      "preferred_caregiver_rate": 0.75,
+      "no_intersect_administrative": false,
+      "patient_config": {
+        "time_windows": [
+          30,
+          45,
+          60,
+          75,
+          90,
+          120
+        ],
+        "treatment_durations": [
+          15,
+          30,
+          45,
+          60
+        ],
+        "treatment_duration_biases": [
+          0.35,
+          0.35,
+          0.2,
+          0.1
+        ],
+        "sequential_distances": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          75,
+          90
+        ],
+        "time_window_granularity": 15
+      },
+      "caregiver_config": {
+        "shift_durations": [
+          600
+        ],
+        "shift_granularity": 30
+      },
+      "random_seed": 162
+    }
+  },
+  "distances": [
+    [
+      0,
+      16,
+      6,
+      4,
+      7,
+      16,
+      8,
+      8,
+      15,
+      19,
+      9,
+      5,
+      5,
+      7,
+      7,
+      11,
+      10,
+      10,
+      7,
+      10,
+      14,
+      17,
+      23,
+      13,
+      7,
+      9,
+      16,
+      5,
+      17,
+      24,
+      12,
+      7,
+      9,
+      6,
+      7,
+      26,
+      9,
+      19,
+      12,
+      13,
+      18
+    ],
+    [
+      19,
+      0,
+      14,
+      17,
+      17,
+      21,
+      15,
+      14,
+      20,
+      3,
+      15,
+      20,
+      18,
+      14,
+      14,
+      14,
+      17,
+      13,
+      16,
+      14,
+      16,
+      19,
+      7,
+      9,
+      20,
+      11,
+      21,
+      17,
+      22,
+      8,
+      17,
+      16,
+      14,
+      18,
+      19,
+      11,
+      15,
+      3,
+      15,
+      13,
+      8
+    ],
+    [
+      6,
+      13,
+      0,
+      4,
+      9,
+      15,
+      3,
+      3,
+      16,
+      15,
+      4,
+      8,
+      8,
+      6,
+      4,
+      8,
+      9,
+      7,
+      5,
+      7,
+      14,
+      17,
+      19,
+      10,
+      11,
+      5,
+      14,
+      4,
+      17,
+      20,
+      10,
+      4,
+      7,
+      7,
+      9,
+      23,
+      8,
+      15,
+      7,
+      10,
+      14
+    ],
+    [
+      4,
+      15,
+      3,
+      0,
+      8,
+      13,
+      5,
+      5,
+      17,
+      17,
+      6,
+      6,
+      7,
+      7,
+      6,
+      10,
+      10,
+      9,
+      4,
+      9,
+      15,
+      18,
+      22,
+      12,
+      9,
+      7,
+      15,
+      3,
+      19,
+      22,
+      12,
+      4,
+      9,
+      5,
+      8,
+      25,
+      7,
+      17,
+      9,
+      12,
+      16
+    ],
+    [
+      8,
+      16,
+      8,
+      7,
+      0,
+      19,
+      11,
+      8,
+      13,
+      19,
+      11,
+      8,
+      4,
+      4,
+      6,
+      11,
+      6,
+      9,
+      10,
+      8,
+      11,
+      14,
+      23,
+      13,
+      5,
+      9,
+      13,
+      8,
+      15,
+      24,
+      10,
+      10,
+      5,
+      10,
+      4,
+      26,
+      13,
+      19,
+      15,
+      12,
+      18
+    ],
+    [
+      16,
+      20,
+      14,
+      14,
+      20,
+      0,
+      13,
+      16,
+      21,
+      22,
+      15,
+      17,
+      18,
+      18,
+      17,
+      22,
+      20,
+      20,
+      10,
+      21,
+      20,
+      23,
+      27,
+      17,
+      16,
+      19,
+      22,
+      15,
+      23,
+      27,
+      23,
+      12,
+      20,
+      13,
+      17,
+      30,
+      9,
+      22,
+      16,
+      21,
+      21
+    ],
+    [
+      8,
+      13,
+      3,
+      6,
+      11,
+      13,
+      0,
+      5,
+      18,
+      15,
+      4,
+      10,
+      10,
+      8,
+      6,
+      11,
+      11,
+      9,
+      4,
+      10,
+      15,
+      18,
+      20,
+      10,
+      13,
+      8,
+      16,
+      7,
+      20,
+      20,
+      13,
+      3,
+      9,
+      5,
+      12,
+      23,
+      7,
+      15,
+      7,
+      12,
+      14
+    ],
+    [
+      7,
+      11,
+      2,
+      4,
+      8,
+      16,
+      5,
+      0,
+      14,
+      14,
+      4,
+      8,
+      7,
+      4,
+      3,
+      7,
+      7,
+      6,
+      6,
+      6,
+      12,
+      15,
+      18,
+      8,
+      10,
+      4,
+      12,
+      5,
+      16,
+      19,
+      9,
+      6,
+      5,
+      8,
+      8,
+      21,
+      9,
+      14,
+      8,
+      8,
+      12
+    ],
+    [
+      15,
+      18,
+      15,
+      15,
+      11,
+      20,
+      18,
+      15,
+      0,
+      21,
+      18,
+      15,
+      13,
+      10,
+      12,
+      14,
+      7,
+      12,
+      16,
+      13,
+      5,
+      11,
+      25,
+      14,
+      12,
+      14,
+      10,
+      15,
+      5,
+      23,
+      11,
+      18,
+      10,
+      17,
+      10,
+      29,
+      15,
+      21,
+      21,
+      15,
+      21
+    ],
+    [
+      19,
+      4,
+      14,
+      17,
+      18,
+      21,
+      15,
+      14,
+      21,
+      0,
+      15,
+      20,
+      19,
+      15,
+      15,
+      15,
+      17,
+      14,
+      17,
+      15,
+      17,
+      20,
+      10,
+      10,
+      21,
+      11,
+      22,
+      18,
+      23,
+      9,
+      17,
+      16,
+      15,
+      18,
+      19,
+      9,
+      16,
+      5,
+      16,
+      14,
+      10
+    ],
+    [
+      9,
+      13,
+      3,
+      6,
+      11,
+      16,
+      5,
+      5,
+      17,
+      15,
+      0,
+      11,
+      10,
+      7,
+      6,
+      10,
+      10,
+      9,
+      7,
+      9,
+      15,
+      18,
+      19,
+      10,
+      13,
+      7,
+      15,
+      7,
+      19,
+      20,
+      12,
+      6,
+      8,
+      8,
+      11,
+      23,
+      10,
+      15,
+      8,
+      11,
+      14
+    ],
+    [
+      3,
+      16,
+      7,
+      5,
+      6,
+      17,
+      9,
+      8,
+      13,
+      19,
+      10,
+      0,
+      5,
+      6,
+      6,
+      11,
+      9,
+      10,
+      8,
+      10,
+      12,
+      15,
+      23,
+      13,
+      6,
+      9,
+      14,
+      6,
+      15,
+      24,
+      12,
+      8,
+      8,
+      7,
+      6,
+      26,
+      10,
+      19,
+      13,
+      13,
+      17
+    ],
+    [
+      6,
+      16,
+      8,
+      6,
+      3,
+      19,
+      10,
+      8,
+      14,
+      18,
+      10,
+      6,
+      0,
+      5,
+      5,
+      11,
+      7,
+      9,
+      9,
+      8,
+      12,
+      15,
+      23,
+      12,
+      5,
+      9,
+      14,
+      7,
+      16,
+      23,
+      11,
+      9,
+      6,
+      9,
+      4,
+      26,
+      12,
+      18,
+      14,
+      12,
+      17
+    ],
+    [
+      6,
+      13,
+      6,
+      5,
+      3,
+      17,
+      8,
+      6,
+      11,
+      16,
+      8,
+      6,
+      4,
+      0,
+      3,
+      7,
+      4,
+      6,
+      8,
+      5,
+      9,
+      13,
+      20,
+      9,
+      6,
+      6,
+      11,
+      6,
+      13,
+      21,
+      8,
+      8,
+      3,
+      8,
+      4,
+      23,
+      11,
+      16,
+      12,
+      9,
+      15
+    ],
+    [
+      9,
+      12,
+      4,
+      7,
+      7,
+      18,
+      7,
+      4,
+      14,
+      14,
+      7,
+      9,
+      7,
+      4,
+      0,
+      7,
+      7,
+      5,
+      8,
+      5,
+      12,
+      15,
+      18,
+      8,
+      9,
+      4,
+      12,
+      7,
+      16,
+      19,
+      8,
+      8,
+      5,
+      10,
+      7,
+      22,
+      12,
+      14,
+      11,
+      8,
+      13
+    ],
+    [
+      14,
+      11,
+      11,
+      14,
+      11,
+      20,
+      14,
+      10,
+      14,
+      13,
+      13,
+      15,
+      13,
+      9,
+      9,
+      0,
+      8,
+      4,
+      15,
+      8,
+      9,
+      12,
+      17,
+      6,
+      13,
+      8,
+      9,
+      14,
+      15,
+      18,
+      5,
+      15,
+      8,
+      16,
+      11,
+      21,
+      15,
+      13,
+      15,
+      5,
+      13
+    ],
+    [
+      9,
+      14,
+      9,
+      9,
+      5,
+      19,
+      12,
+      9,
+      9,
+      17,
+      12,
+      10,
+      6,
+      4,
+      6,
+      7,
+      0,
+      6,
+      12,
+      7,
+      7,
+      11,
+      21,
+      10,
+      6,
+      8,
+      9,
+      9,
+      11,
+      22,
+      7,
+      12,
+      4,
+      11,
+      3,
+      25,
+      14,
+      17,
+      16,
+      9,
+      17
+    ],
+    [
+      10,
+      11,
+      7,
+      10,
+      7,
+      20,
+      10,
+      7,
+      11,
+      13,
+      10,
+      11,
+      9,
+      5,
+      5,
+      4,
+      4,
+      0,
+      11,
+      5,
+      8,
+      11,
+      18,
+      6,
+      9,
+      6,
+      8,
+      10,
+      13,
+      18,
+      5,
+      11,
+      4,
+      12,
+      7,
+      21,
+      15,
+      13,
+      14,
+      5,
+      14
+    ],
+    [
+      7,
+      14,
+      5,
+      4,
+      11,
+      10,
+      3,
+      7,
+      16,
+      17,
+      6,
+      9,
+      9,
+      9,
+      8,
+      12,
+      12,
+      11,
+      0,
+      11,
+      15,
+      18,
+      21,
+      11,
+      11,
+      9,
+      17,
+      5,
+      18,
+      22,
+      14,
+      3,
+      11,
+      4,
+      11,
+      24,
+      4,
+      17,
+      8,
+      14,
+      16
+    ],
+    [
+      9,
+      11,
+      6,
+      8,
+      6,
+      19,
+      9,
+      5,
+      12,
+      13,
+      8,
+      9,
+      7,
+      4,
+      4,
+      5,
+      5,
+      4,
+      10,
+      0,
+      10,
+      13,
+      18,
+      7,
+      10,
+      4,
+      10,
+      9,
+      14,
+      19,
+      6,
+      10,
+      2,
+      11,
+      7,
+      21,
+      13,
+      13,
+      12,
+      6,
+      12
+    ],
+    [
+      10,
+      19,
+      14,
+      12,
+      11,
+      16,
+      14,
+      16,
+      11,
+      21,
+      16,
+      10,
+      11,
+      13,
+      13,
+      16,
+      11,
+      14,
+      11,
+      16,
+      0,
+      13,
+      25,
+      14,
+      7,
+      16,
+      12,
+      13,
+      13,
+      24,
+      13,
+      13,
+      13,
+      13,
+      8,
+      29,
+      10,
+      21,
+      17,
+      16,
+      21
+    ],
+    [
+      15,
+      17,
+      15,
+      15,
+      11,
+      21,
+      18,
+      15,
+      8,
+      19,
+      17,
+      15,
+      13,
+      10,
+      12,
+      12,
+      8,
+      11,
+      16,
+      13,
+      5,
+      0,
+      24,
+      12,
+      12,
+      14,
+      7,
+      16,
+      10,
+      22,
+      9,
+      18,
+      10,
+      18,
+      10,
+      27,
+      15,
+      19,
+      19,
+      14,
+      19
+    ],
+    [
+      24,
+      7,
+      19,
+      22,
+      23,
+      26,
+      20,
+      19,
+      25,
+      8,
+      20,
+      25,
+      23,
+      20,
+      19,
+      20,
+      22,
+      18,
+      22,
+      19,
+      21,
+      24,
+      0,
+      15,
+      25,
+      16,
+      26,
+      23,
+      27,
+      13,
+      22,
+      21,
+      20,
+      23,
+      24,
+      16,
+      21,
+      6,
+      21,
+      18,
+      9
+    ],
+    [
+      12,
+      6,
+      8,
+      10,
+      10,
+      15,
+      9,
+      7,
+      14,
+      8,
+      9,
+      12,
+      10,
+      7,
+      7,
+      5,
+      8,
+      4,
+      11,
+      6,
+      9,
+      13,
+      13,
+      0,
+      13,
+      4,
+      12,
+      11,
+      15,
+      13,
+      7,
+      10,
+      7,
+      12,
+      10,
+      16,
+      10,
+      8,
+      10,
+      4,
+      9
+    ],
+    [
+      7,
+      18,
+      10,
+      9,
+      5,
+      16,
+      13,
+      10,
+      12,
+      21,
+      12,
+      8,
+      5,
+      8,
+      7,
+      12,
+      7,
+      11,
+      11,
+      11,
+      11,
+      14,
+      25,
+      15,
+      0,
+      11,
+      13,
+      9,
+      14,
+      25,
+      12,
+      12,
+      8,
+      10,
+      4,
+      28,
+      11,
+      21,
+      16,
+      14,
+      20
+    ],
+    [
+      9,
+      9,
+      4,
+      7,
+      7,
+      17,
+      7,
+      3,
+      14,
+      11,
+      6,
+      9,
+      7,
+      4,
+      3,
+      5,
+      7,
+      4,
+      8,
+      4,
+      11,
+      15,
+      16,
+      6,
+      9,
+      0,
+      11,
+      7,
+      16,
+      16,
+      7,
+      8,
+      4,
+      10,
+      8,
+      19,
+      11,
+      11,
+      10,
+      6,
+      10
+    ],
+    [
+      16,
+      17,
+      15,
+      16,
+      12,
+      22,
+      18,
+      15,
+      9,
+      19,
+      17,
+      16,
+      14,
+      11,
+      12,
+      10,
+      9,
+      10,
+      17,
+      12,
+      6,
+      5,
+      24,
+      12,
+      13,
+      13,
+      0,
+      17,
+      11,
+      22,
+      9,
+      19,
+      10,
+      19,
+      11,
+      27,
+      16,
+      19,
+      19,
+      11,
+      20
+    ],
+    [
+      7,
+      13,
+      5,
+      5,
+      6,
+      18,
+      8,
+      5,
+      14,
+      16,
+      8,
+      7,
+      6,
+      4,
+      4,
+      9,
+      7,
+      7,
+      8,
+      8,
+      13,
+      16,
+      20,
+      10,
+      8,
+      6,
+      13,
+      0,
+      16,
+      21,
+      10,
+      9,
+      6,
+      9,
+      7,
+      23,
+      12,
+      16,
+      12,
+      10,
+      15
+    ],
+    [
+      17,
+      21,
+      18,
+      17,
+      13,
+      23,
+      20,
+      18,
+      4,
+      23,
+      20,
+      17,
+      15,
+      12,
+      14,
+      16,
+      10,
+      14,
+      18,
+      15,
+      7,
+      13,
+      28,
+      16,
+      14,
+      16,
+      12,
+      18,
+      0,
+      26,
+      13,
+      20,
+      12,
+      20,
+      12,
+      31,
+      17,
+      23,
+      23,
+      17,
+      23
+    ],
+    [
+      26,
+      9,
+      21,
+      23,
+      24,
+      28,
+      22,
+      20,
+      22,
+      10,
+      22,
+      27,
+      25,
+      21,
+      21,
+      20,
+      23,
+      18,
+      23,
+      21,
+      18,
+      20,
+      15,
+      15,
+      25,
+      18,
+      23,
+      24,
+      24,
+      0,
+      21,
+      23,
+      21,
+      25,
+      25,
+      18,
+      22,
+      10,
+      22,
+      16,
+      15
+    ],
+    [
+      13,
+      13,
+      11,
+      12,
+      9,
+      23,
+      14,
+      10,
+      11,
+      16,
+      13,
+      13,
+      11,
+      7,
+      8,
+      5,
+      7,
+      5,
+      15,
+      8,
+      7,
+      10,
+      20,
+      8,
+      12,
+      9,
+      7,
+      13,
+      12,
+      20,
+      0,
+      15,
+      6,
+      15,
+      9,
+      24,
+      17,
+      16,
+      17,
+      8,
+      16
+    ],
+    [
+      7,
+      13,
+      4,
+      5,
+      11,
+      13,
+      2,
+      6,
+      19,
+      16,
+      5,
+      9,
+      9,
+      9,
+      7,
+      11,
+      12,
+      10,
+      4,
+      10,
+      15,
+      19,
+      20,
+      11,
+      12,
+      8,
+      17,
+      6,
+      20,
+      21,
+      13,
+      0,
+      10,
+      5,
+      11,
+      23,
+      7,
+      16,
+      8,
+      13,
+      15
+    ],
+    [
+      9,
+      13,
+      8,
+      9,
+      5,
+      21,
+      11,
+      8,
+      10,
+      16,
+      10,
+      10,
+      7,
+      4,
+      5,
+      6,
+      3,
+      5,
+      12,
+      5,
+      8,
+      11,
+      20,
+      9,
+      8,
+      6,
+      9,
+      9,
+      11,
+      21,
+      6,
+      12,
+      0,
+      12,
+      5,
+      24,
+      15,
+      16,
+      14,
+      8,
+      15
+    ],
+    [
+      7,
+      16,
+      6,
+      5,
+      11,
+      13,
+      5,
+      7,
+      18,
+      18,
+      8,
+      9,
+      9,
+      9,
+      9,
+      13,
+      12,
+      11,
+      4,
+      12,
+      17,
+      20,
+      23,
+      13,
+      10,
+      10,
+      18,
+      6,
+      20,
+      24,
+      15,
+      5,
+      11,
+      0,
+      11,
+      26,
+      7,
+      18,
+      10,
+      14,
+      17
+    ],
+    [
+      9,
+      18,
+      10,
+      8,
+      5,
+      18,
+      12,
+      10,
+      12,
+      20,
+      12,
+      9,
+      5,
+      7,
+      7,
+      11,
+      5,
+      9,
+      11,
+      10,
+      11,
+      14,
+      25,
+      13,
+      4,
+      10,
+      13,
+      9,
+      14,
+      25,
+      10,
+      11,
+      7,
+      11,
+      0,
+      28,
+      12,
+      20,
+      16,
+      12,
+      19
+    ],
+    [
+      26,
+      13,
+      21,
+      24,
+      25,
+      28,
+      22,
+      21,
+      28,
+      10,
+      22,
+      27,
+      26,
+      22,
+      22,
+      22,
+      24,
+      21,
+      24,
+      22,
+      24,
+      27,
+      19,
+      18,
+      28,
+      18,
+      29,
+      25,
+      30,
+      17,
+      24,
+      23,
+      22,
+      25,
+      26,
+      0,
+      23,
+      14,
+      23,
+      21,
+      17
+    ],
+    [
+      9,
+      15,
+      8,
+      7,
+      14,
+      10,
+      6,
+      10,
+      15,
+      18,
+      9,
+      11,
+      12,
+      12,
+      11,
+      15,
+      14,
+      14,
+      4,
+      14,
+      14,
+      17,
+      22,
+      12,
+      10,
+      12,
+      16,
+      8,
+      17,
+      23,
+      17,
+      6,
+      14,
+      6,
+      11,
+      25,
+      0,
+      18,
+      11,
+      16,
+      16
+    ],
+    [
+      21,
+      3,
+      16,
+      19,
+      20,
+      23,
+      17,
+      16,
+      22,
+      5,
+      17,
+      22,
+      20,
+      16,
+      16,
+      17,
+      19,
+      15,
+      19,
+      16,
+      18,
+      21,
+      8,
+      11,
+      22,
+      13,
+      23,
+      19,
+      24,
+      10,
+      19,
+      18,
+      16,
+      20,
+      21,
+      13,
+      18,
+      0,
+      18,
+      15,
+      8
+    ],
+    [
+      10,
+      11,
+      5,
+      8,
+      13,
+      14,
+      5,
+      7,
+      18,
+      14,
+      6,
+      13,
+      13,
+      10,
+      8,
+      13,
+      13,
+      11,
+      7,
+      12,
+      13,
+      16,
+      18,
+      8,
+      15,
+      9,
+      18,
+      9,
+      19,
+      19,
+      14,
+      7,
+      11,
+      9,
+      13,
+      21,
+      9,
+      14,
+      0,
+      12,
+      13
+    ],
+    [
+      13,
+      10,
+      8,
+      11,
+      10,
+      19,
+      11,
+      7,
+      15,
+      12,
+      11,
+      13,
+      11,
+      7,
+      8,
+      5,
+      8,
+      4,
+      13,
+      7,
+      12,
+      15,
+      16,
+      5,
+      13,
+      5,
+      11,
+      12,
+      16,
+      17,
+      7,
+      12,
+      7,
+      14,
+      10,
+      20,
+      14,
+      12,
+      13,
+      0,
+      12
+    ],
+    [
+      18,
+      7,
+      13,
+      16,
+      17,
+      20,
+      14,
+      13,
+      20,
+      9,
+      14,
+      19,
+      18,
+      14,
+      14,
+      14,
+      16,
+      13,
+      16,
+      14,
+      16,
+      19,
+      10,
+      10,
+      20,
+      10,
+      21,
+      17,
+      22,
+      14,
+      16,
+      15,
+      14,
+      17,
+      18,
+      17,
+      15,
+      7,
+      15,
+      13,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d0",
+      "distance_matrix_index": 0,
+      "location": [
+        -0.8691257441383268,
+        41.64395569318226
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s3"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s1"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c4",
+      "abilities": [
+        "s0",
+        "s1"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c5",
+      "abilities": [
+        "s2"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      },
+      "lunch_break": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "p0",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 120,
+          "end": 195
+        }
+      ],
+      "location": [
+        -1.0006647429413178,
+        41.702353638788615
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 30,
+          "max": 45
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        },
+        {
+          "service": "s0",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 255,
+          "end": 435
+        }
+      ],
+      "location": [
+        -0.8841812651939059,
+        41.660522724695085
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 300,
+          "end": 360
+        }
+      ],
+      "location": [
+        -0.8707180869216662,
+        41.65288850576099
+      ],
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 255,
+          "end": 495
+        }
+      ],
+      "location": [
+        -0.8912639509487561,
+        41.63242571734598
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 195,
+          "end": 285
+        }
+      ],
+      "location": [
+        -0.7575761257370377,
+        41.62876972690485
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c5"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 480,
+          "end": 540
+        }
+      ],
+      "location": [
+        -0.8739046585132829,
+        41.67075378573551
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 420,
+          "end": 510
+        }
+      ],
+      "location": [
+        -0.8960510283127919,
+        41.65922283901038
+      ],
+      "optional": false
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 375,
+          "end": 435
+        }
+      ],
+      "location": [
+        -0.9544270391943863,
+        41.57994324368833
+      ],
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 195,
+          "end": 345
+        }
+      ],
+      "location": [
+        -1.0276515760075229,
+        41.71758283804501
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 105
+        }
+      ],
+      "location": [
+        -0.8857765416180761,
+        41.66945508774694
+      ],
+      "optional": false
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 11,
+      "time_windows": [
+        {
+          "start": 345,
+          "end": 405
+        }
+      ],
+      "location": [
+        -0.8675340295799785,
+        41.635022765496885
+      ],
+      "optional": false
+    },
+    {
+      "id": "p11",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 12,
+      "time_windows": [
+        {
+          "start": 195,
+          "end": 345
+        }
+      ],
+      "location": [
+        -0.8793992117654352,
+        41.63372494463975
+      ],
+      "preferred_caregivers": [
+        "c5"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p12",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 13,
+      "time_windows": [
+        {
+          "start": 285,
+          "end": 465
+        }
+      ],
+      "location": [
+        -0.8928590138021409,
+        41.64135820650728
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p13",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 14,
+      "time_windows": [
+        {
+          "start": 270,
+          "end": 390
+        }
+      ],
+      "location": [
+        -0.8944547061441382,
+        41.65029058038403
+      ],
+      "optional": false
+    },
+    {
+      "id": "p14",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 15,
+      "time_windows": [
+        {
+          "start": 75,
+          "end": 165
+        }
+      ],
+      "location": [
+        -0.9300563040330572,
+        41.646383141505986
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p15",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 16,
+      "time_windows": [
+        {
+          "start": 345,
+          "end": 525
+        }
+      ],
+      "location": [
+        -0.9031282466900612,
+        41.63112508369942
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p16",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 60
+        },
+        {
+          "service": "s1",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 17,
+      "time_windows": [
+        {
+          "start": 330,
+          "end": 570
+        }
+      ],
+      "location": [
+        -0.9181895494496377,
+        41.64768702779484
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p17",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 18,
+      "time_windows": [
+        {
+          "start": 285,
+          "end": 465
+        }
+      ],
+      "location": [
+        -0.8604404079741665,
+        41.66311827464311
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p18",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 19,
+      "time_windows": [
+        {
+          "start": 435,
+          "end": 525
+        }
+      ],
+      "location": [
+        -0.9063223500066427,
+        41.64898950744892
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p19",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 20,
+      "time_windows": [
+        {
+          "start": 375,
+          "end": 465
+        }
+      ],
+      "location": [
+        -0.9236572323182469,
+        41.61065559151814
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p20",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 21,
+      "time_windows": [
+        {
+          "start": 345,
+          "end": 525
+        }
+      ],
+      "location": [
+        -0.9371173443208272,
+        41.61828302039637
+      ],
+      "optional": false
+    },
+    {
+      "id": "p21",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 22,
+      "time_windows": [
+        {
+          "start": 240,
+          "end": 300
+        }
+      ],
+      "location": [
+        -0.9904009849937789,
+        41.712596013611204
+      ],
+      "optional": false
+    },
+    {
+      "id": "p22",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s0",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 23,
+      "time_windows": [
+        {
+          "start": 105,
+          "end": 255
+        }
+      ],
+      "location": [
+        -0.933259628864709,
+        41.66424622325543
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c4",
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p23",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 24,
+      "time_windows": [
+        {
+          "start": 240,
+          "end": 480
+        }
+      ],
+      "location": [
+        -0.8778064514448412,
+        41.62479212087412
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c5"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p24",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 25,
+      "time_windows": [
+        {
+          "start": 270,
+          "end": 390
+        }
+      ],
+      "location": [
+        -0.9079203471834846,
+        41.6579215462973
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p25",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 26,
+      "time_windows": [
+        {
+          "start": 90,
+          "end": 210
+        }
+      ],
+      "location": [
+        -0.9387184688654281,
+        41.62721474548386
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p26",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 27,
+      "time_windows": [
+        {
+          "start": 240,
+          "end": 330
+        }
+      ],
+      "location": [
+        -0.8825866183023504,
+        41.65159024651607
+      ],
+      "preferred_caregivers": [
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p27",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 28,
+      "time_windows": [
+        {
+          "start": 135,
+          "end": 285
+        }
+      ],
+      "location": [
+        -0.963074991158215,
+        41.56077187413176
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p28",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 29,
+      "time_windows": [
+        {
+          "start": 315,
+          "end": 405
+        }
+      ],
+      "location": [
+        -1.0211827618456633,
+        41.681865651602934
+      ],
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p29",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 60
+        },
+        {
+          "service": "s2",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 30,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 165
+        }
+      ],
+      "location": [
+        -0.9284555893691917,
+        41.63745142737115
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 0,
+          "max": 45
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p30",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s0",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 31,
+      "time_windows": [
+        {
+          "start": 285,
+          "end": 525
+        }
+      ],
+      "location": [
+        -0.8723110582674269,
+        41.661821203267344
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p31",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 32,
+      "time_windows": [
+        {
+          "start": 150,
+          "end": 330
+        }
+      ],
+      "location": [
+        -0.9047249832882932,
+        41.640057353260985
+      ],
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p32",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 33,
+      "time_windows": [
+        {
+          "start": 105,
+          "end": 345
+        }
+      ],
+      "location": [
+        -0.8588491124426181,
+        41.654185358034844
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p33",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 34,
+      "time_windows": [
+        {
+          "start": 210,
+          "end": 330
+        }
+      ],
+      "location": [
+        -0.8896695172461776,
+        41.62349311286595
+      ],
+      "optional": false
+    },
+    {
+      "id": "p34",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 35,
+      "time_windows": [
+        {
+          "start": 45,
+          "end": 135
+        }
+      ],
+      "location": [
+        -1.0919218179632517,
+        41.737766393428906
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p35",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 36,
+      "time_windows": [
+        {
+          "start": 60,
+          "end": 120
+        }
+      ],
+      "location": [
+        -0.8382863491513808,
+        41.674641434833575
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p36",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 37,
+      "time_windows": [
+        {
+          "start": 90,
+          "end": 330
+        }
+      ],
+      "location": [
+        -1.002278911311973,
+        41.71128332206949
+      ],
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p37",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 38,
+      "time_windows": [
+        {
+          "start": 90,
+          "end": 270
+        }
+      ],
+      "location": [
+        -0.8770937470572364,
+        41.68861860569406
+      ],
+      "optional": false
+    },
+    {
+      "id": "p38",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 39,
+      "time_windows": [
+        {
+          "start": 60,
+          "end": 240
+        }
+      ],
+      "location": [
+        -0.9316576504184795,
+        41.65531474012277
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p39",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s0",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 40,
+      "time_windows": [
+        {
+          "start": 135,
+          "end": 195
+        }
+      ],
+      "location": [
+        -0.9650346501800059,
+        41.70628682401336
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c4",
+        "c3",
+        "c1"
+      ],
+      "optional": false
+    }
+  ],
+  "services": [
+    {
+      "id": "s0",
+      "type": "t0",
+      "default_duration": 15
+    },
+    {
+      "id": "s1",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s2",
+      "type": "t1",
+      "default_duration": 15
+    },
+    {
+      "id": "s3",
+      "type": "t1",
+      "default_duration": 15
+    }
+  ],
+  "lunch_breaks": {
+    "start": 180,
+    "end": 360,
+    "min_duration": 30
+  }
+}

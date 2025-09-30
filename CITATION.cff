@@ -1,0 +1,26 @@
+# CITATION.cff
+cff-version: 1.2.0
+title: ProjectName
+message: "If you use this software, please cite the paper and/or the software as below."
+type: software
+abstract: Short one-line description of what the repo does.
+authors:
+  - family-names: AuthorSurname
+    given-names: AuthorName
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  # add more authors
+version: 1.0.0
+repository-code: "https://github.com/org-or-user/repo"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Your Paper Title"
+  authors:
+    - family-names: AuthorSurname
+      given-names: AuthorName
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+    # …
+  journal: Journal or Conference Name
+  year: 2025
+  doi: 10.xxxx/xxxxx
+  url: "https://doi.org/10.xxxx/xxxxx"

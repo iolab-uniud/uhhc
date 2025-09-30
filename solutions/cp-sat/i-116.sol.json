@@ -1,0 +1,98 @@
+{
+  "cost_components": {},
+  "global_ordering": [],
+  "routes": [
+    {
+      "caregiver_id": "c1",
+      "locations": [
+        {
+          "arrival_time": 195,
+          "departure_time": 210,
+          "patient": "p5",
+          "service": "s1"
+        },
+        {
+          "arrival_time": 234,
+          "departure_time": 279,
+          "patient": "p0",
+          "service": "s3"
+        },
+        {
+          "arrival_time": 308,
+          "departure_time": 323,
+          "patient": "p2",
+          "service": "s2"
+        }
+      ]
+    },
+    {
+      "caregiver_id": "c2",
+      "locations": [
+        {
+          "arrival_time": 195,
+          "departure_time": 255,
+          "patient": "p8",
+          "service": "s4"
+        }
+      ]
+    },
+    {
+      "caregiver_id": "c3",
+      "locations": [
+        {
+          "arrival_time": 268,
+          "departure_time": 283,
+          "patient": "p4",
+          "service": "s9"
+        },
+        {
+          "arrival_time": 312,
+          "departure_time": 342,
+          "patient": "p3",
+          "service": "lunch_break"
+        },
+        {
+          "arrival_time": 342,
+          "departure_time": 357,
+          "patient": "p3",
+          "service": "s7"
+        },
+        {
+          "arrival_time": 384,
+          "departure_time": 414,
+          "patient": "p5",
+          "service": "s5"
+        }
+      ]
+    },
+    {
+      "caregiver_id": "c4",
+      "locations": [
+        {
+          "arrival_time": 197,
+          "departure_time": 242,
+          "patient": "p1",
+          "service": "s6"
+        },
+        {
+          "arrival_time": 264,
+          "departure_time": 294,
+          "patient": "p0",
+          "service": "lunch_break"
+        },
+        {
+          "arrival_time": 294,
+          "departure_time": 309,
+          "patient": "p0",
+          "service": "s6"
+        },
+        {
+          "arrival_time": 373,
+          "departure_time": 388,
+          "patient": "p7",
+          "service": "s6"
+        }
+      ]
+    }
+  ]
+}

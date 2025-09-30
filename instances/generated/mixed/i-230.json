@@ -1,0 +1,969 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "travel_time": 9,
+      "total_tardiness": 9,
+      "highest_tardiness": 4,
+      "total_waiting_time": 4,
+      "total_extra_time": 7,
+      "max_idle_time": 62,
+      "caregiver_preferences": 3,
+      "optional_patients": 200,
+      "missed_lunch_break": 80
+    },
+    "name": "small-generated-with-soft-tardiness/instance-Kapfenberg-r_30-p_10-dp_10-apt_same_as_departure-h600-twm_at_service_end-rs_42-inc_0.2-opt_0.4-dtw_0.2-pcgr_0.5-sc_(5, 5)-sp_0.8",
+    "origin": "generated",
+    "horizon": 600,
+    "generator_info": {
+      "city": "Kapfenberg",
+      "radius": 30.0,
+      "patients": 10,
+      "departing_points": 10,
+      "arrival_points": 0,
+      "arrival_point_type": "same_as_departure",
+      "sync_rates": [
+        0.8,
+        0.0,
+        0.11,
+        0.09
+      ],
+      "incompatibility": 0.2,
+      "service_classes": [
+        5,
+        5
+      ],
+      "optional_rate": 0.4,
+      "double_time_window_rate": 0.2,
+      "preferred_caregiver_rate": 0.5,
+      "no_intersect_administrative": false,
+      "patient_config": {
+        "time_windows": [
+          30,
+          45,
+          60,
+          75,
+          90,
+          120,
+          120
+        ],
+        "treatment_durations": [
+          15,
+          30,
+          45,
+          60
+        ],
+        "treatment_duration_biases": [
+          0.35,
+          0.35,
+          0.2,
+          0.1
+        ],
+        "sequential_distances": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          75,
+          90
+        ],
+        "time_window_granularity": 15
+      },
+      "caregiver_config": {
+        "shift_durations": [
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          600
+        ],
+        "shift_granularity": 30
+      },
+      "random_seed": 42
+    }
+  },
+  "distances": [
+    [
+      0,
+      23,
+      33,
+      28,
+      13,
+      20,
+      25,
+      15,
+      18,
+      19,
+      24,
+      21,
+      13,
+      9,
+      6,
+      9,
+      6,
+      18,
+      10,
+      14
+    ],
+    [
+      23,
+      0,
+      51,
+      45,
+      26,
+      34,
+      19,
+      30,
+      36,
+      32,
+      16,
+      7,
+      30,
+      23,
+      25,
+      24,
+      23,
+      37,
+      15,
+      27
+    ],
+    [
+      33,
+      51,
+      0,
+      5,
+      29,
+      36,
+      52,
+      43,
+      36,
+      38,
+      52,
+      48,
+      29,
+      37,
+      33,
+      37,
+      34,
+      36,
+      38,
+      31
+    ],
+    [
+      28,
+      46,
+      5,
+      0,
+      23,
+      31,
+      47,
+      38,
+      31,
+      32,
+      46,
+      43,
+      24,
+      31,
+      27,
+      31,
+      28,
+      31,
+      32,
+      26
+    ],
+    [
+      12,
+      25,
+      29,
+      23,
+      0,
+      11,
+      27,
+      21,
+      25,
+      12,
+      26,
+      23,
+      8,
+      15,
+      13,
+      15,
+      13,
+      25,
+      12,
+      4
+    ],
+    [
+      21,
+      34,
+      36,
+      31,
+      11,
+      0,
+      35,
+      30,
+      32,
+      17,
+      34,
+      31,
+      15,
+      24,
+      20,
+      23,
+      21,
+      32,
+      20,
+      13
+    ],
+    [
+      24,
+      18,
+      52,
+      46,
+      27,
+      35,
+      0,
+      24,
+      18,
+      33,
+      33,
+      24,
+      31,
+      24,
+      26,
+      23,
+      23,
+      35,
+      18,
+      28
+    ],
+    [
+      15,
+      30,
+      43,
+      38,
+      22,
+      29,
+      24,
+      0,
+      30,
+      28,
+      31,
+      27,
+      23,
+      18,
+      18,
+      7,
+      13,
+      30,
+      17,
+      23
+    ],
+    [
+      18,
+      36,
+      36,
+      31,
+      25,
+      32,
+      18,
+      30,
+      0,
+      33,
+      38,
+      35,
+      25,
+      23,
+      18,
+      23,
+      20,
+      23,
+      24,
+      27
+    ],
+    [
+      20,
+      33,
+      39,
+      33,
+      14,
+      17,
+      34,
+      29,
+      34,
+      0,
+      34,
+      30,
+      18,
+      23,
+      22,
+      22,
+      20,
+      34,
+      20,
+      15
+    ],
+    [
+      23,
+      16,
+      51,
+      46,
+      27,
+      34,
+      32,
+      31,
+      38,
+      33,
+      0,
+      13,
+      30,
+      23,
+      25,
+      24,
+      24,
+      38,
+      15,
+      27
+    ],
+    [
+      20,
+      7,
+      48,
+      43,
+      24,
+      31,
+      24,
+      27,
+      35,
+      30,
+      13,
+      0,
+      27,
+      20,
+      22,
+      21,
+      21,
+      35,
+      12,
+      24
+    ],
+    [
+      13,
+      30,
+      29,
+      23,
+      8,
+      15,
+      32,
+      23,
+      25,
+      17,
+      31,
+      27,
+      0,
+      17,
+      13,
+      17,
+      14,
+      25,
+      17,
+      10
+    ],
+    [
+      11,
+      24,
+      28,
+      23,
+      4,
+      11,
+      26,
+      20,
+      25,
+      11,
+      25,
+      21,
+      7,
+      0,
+      12,
+      14,
+      11,
+      25,
+      11,
+      4
+    ],
+    [
+      6,
+      26,
+      33,
+      28,
+      13,
+      20,
+      27,
+      18,
+      19,
+      21,
+      27,
+      23,
+      13,
+      12,
+      0,
+      12,
+      9,
+      18,
+      13,
+      15
+    ],
+    [
+      9,
+      24,
+      37,
+      31,
+      16,
+      23,
+      23,
+      7,
+      23,
+      22,
+      25,
+      21,
+      17,
+      12,
+      11,
+      0,
+      7,
+      23,
+      11,
+      16
+    ],
+    [
+      6,
+      24,
+      34,
+      28,
+      14,
+      21,
+      23,
+      13,
+      20,
+      19,
+      24,
+      21,
+      14,
+      10,
+      8,
+      7,
+      0,
+      20,
+      11,
+      14
+    ],
+    [
+      18,
+      37,
+      36,
+      31,
+      25,
+      32,
+      35,
+      29,
+      23,
+      33,
+      38,
+      35,
+      25,
+      23,
+      18,
+      23,
+      20,
+      0,
+      24,
+      27
+    ],
+    [
+      10,
+      15,
+      38,
+      32,
+      13,
+      20,
+      18,
+      17,
+      24,
+      19,
+      16,
+      12,
+      17,
+      10,
+      12,
+      11,
+      10,
+      24,
+      0,
+      14
+    ],
+    [
+      14,
+      27,
+      31,
+      26,
+      4,
+      14,
+      29,
+      23,
+      28,
+      14,
+      28,
+      24,
+      11,
+      17,
+      15,
+      17,
+      14,
+      28,
+      14,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d0",
+      "distance_matrix_index": 0,
+      "location": [
+        15.298951572012117,
+        47.45137284790165
+      ]
+    },
+    {
+      "id": "d1",
+      "distance_matrix_index": 1,
+      "location": [
+        15.498371809185306,
+        47.57678553964835
+      ]
+    },
+    {
+      "id": "d2",
+      "distance_matrix_index": 2,
+      "location": [
+        15.08115756239547,
+        47.53389515341429
+      ]
+    },
+    {
+      "id": "d3",
+      "distance_matrix_index": 3,
+      "location": [
+        15.077625935874861,
+        47.49799031784224
+      ]
+    },
+    {
+      "id": "d4",
+      "distance_matrix_index": 4,
+      "location": [
+        15.267934505183206,
+        47.40778333703729
+      ]
+    },
+    {
+      "id": "d5",
+      "distance_matrix_index": 5,
+      "location": [
+        15.293443434872895,
+        47.39752568952334
+      ]
+    },
+    {
+      "id": "d6",
+      "distance_matrix_index": 6,
+      "location": [
+        15.336514075883102,
+        47.55776779053297
+      ]
+    },
+    {
+      "id": "d7",
+      "distance_matrix_index": 7,
+      "location": [
+        15.302631808916841,
+        47.48726991725417
+      ]
+    },
+    {
+      "id": "d8",
+      "distance_matrix_index": 8,
+      "location": [
+        15.199466986198091,
+        47.51929792882772
+      ]
+    },
+    {
+      "id": "d9",
+      "distance_matrix_index": 9,
+      "location": [
+        15.342582443094328,
+        47.35904391512563
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s1",
+        "s3",
+        "s4",
+        "s2",
+        "s0"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 60,
+        "end": 330
+      },
+      "lunch_break": false
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s5",
+        "s8"
+      ],
+      "departing_point": "d9",
+      "arrival_point": "d9",
+      "working_shift": {
+        "start": 180,
+        "end": 450
+      },
+      "lunch_break": false
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s6",
+        "s8",
+        "s9",
+        "s7",
+        "s5"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 60,
+        "end": 540
+      },
+      "lunch_break": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "p0",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 255
+        }
+      ],
+      "location": [
+        15.630895660687397,
+        47.570023294854956
+      ],
+      "optional": true
+    },
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 11,
+      "time_windows": [
+        {
+          "start": 420,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.507790240768305,
+        47.54022965158277
+      ],
+      "optional": false
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 12,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 150
+        },
+        {
+          "start": 390,
+          "end": 480
+        }
+      ],
+      "location": [
+        15.282062764927115,
+        47.41611737498201
+      ],
+      "preferred_caregivers": [
+        "c1"
+      ],
+      "optional": true
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 13,
+      "time_windows": [
+        {
+          "start": 180,
+          "end": 420
+        }
+      ],
+      "location": [
+        15.281147621655393,
+        47.40714264244323
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 14,
+      "time_windows": [
+        {
+          "start": 345,
+          "end": 465
+        }
+      ],
+      "location": [
+        15.284810628325845,
+        47.443041261300394
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c2"
+      ],
+      "optional": true
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 15,
+      "time_windows": [
+        {
+          "start": 225,
+          "end": 315
+        }
+      ],
+      "location": [
+        15.301711137627457,
+        47.4782957274142
+      ],
+      "optional": false
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 16,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 255
+        },
+        {
+          "start": 420,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.31309717246657,
+        47.459702521779846
+      ],
+      "preferred_caregivers": [
+        "c3",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 17,
+      "time_windows": [
+        {
+          "start": 210,
+          "end": 270
+        }
+      ],
+      "location": [
+        15.27158842714467,
+        47.4436824680638
+      ],
+      "incompatible_caregivers": [
+        "c3"
+      ],
+      "preferred_caregivers": [
+        "c2"
+      ],
+      "optional": true
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 45
+        },
+        {
+          "service": "s3",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 18,
+      "time_windows": [
+        {
+          "start": 225,
+          "end": 465
+        }
+      ],
+      "location": [
+        15.408487224060996,
+        47.48206452305124
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "optional": false
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 19,
+      "time_windows": [
+        {
+          "start": 270,
+          "end": 450
+        }
+      ],
+      "location": [
+        15.254721092771863,
+        47.408422429538845
+      ],
+      "optional": false
+    }
+  ],
+  "services": [
+    {
+      "id": "s0",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s1",
+      "type": "t0",
+      "default_duration": 15
+    },
+    {
+      "id": "s2",
+      "type": "t0",
+      "default_duration": 15
+    },
+    {
+      "id": "s3",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s4",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s5",
+      "type": "t1",
+      "default_duration": 30
+    },
+    {
+      "id": "s6",
+      "type": "t1",
+      "default_duration": 15
+    },
+    {
+      "id": "s7",
+      "type": "t1",
+      "default_duration": 15
+    },
+    {
+      "id": "s8",
+      "type": "t1",
+      "default_duration": 45
+    },
+    {
+      "id": "s9",
+      "type": "t1",
+      "default_duration": 30
+    }
+  ],
+  "lunch_breaks": {
+    "start": 180,
+    "end": 360,
+    "min_duration": 30
+  }
+}

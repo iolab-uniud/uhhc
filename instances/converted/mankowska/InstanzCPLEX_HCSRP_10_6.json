@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "cost_components": {
+      "travel_time": 1,
+      "total_tardiness": 1,
+      "highest_tardiness": 1
+    },
+    "area": null,
+    "name": "InstanzCPLEX_HCSRP_10_6",
+    "origin": "mankowska"
+  },
+  "distances": [
+    [
+      0.0,
+      58.189,
+      48.415,
+      77.175,
+      87.235,
+      3.162,
+      33.015,
+      25.456,
+      47.413,
+      46.141,
+      14.213
+    ],
+    [
+      58.189,
+      0.0,
+      31.401,
+      23.707,
+      30.0,
+      61.351,
+      55.785,
+      37.014,
+      13.342,
+      15.524,
+      71.694
+    ],
+    [
+      48.415,
+      31.401,
+      0.0,
+      36.056,
+      49.01,
+      51.088,
+      29.428,
+      23.324,
+      20.0,
+      18.028,
+      62.37
+    ],
+    [
+      77.175,
+      23.707,
+      36.056,
+      0.0,
+      13.342,
+      80.262,
+      65.376,
+      52.802,
+      30.0,
+      31.064,
+      91.269
+    ],
+    [
+      87.235,
+      30.0,
+      49.01,
+      13.342,
+      0.0,
+      90.377,
+      78.102,
+      63.891,
+      39.925,
+      41.437,
+      101.074
+    ],
+    [
+      3.162,
+      61.351,
+      51.088,
+      80.262,
+      90.377,
+      0.0,
+      34.234,
+      28.32,
+      50.537,
+      49.244,
+      11.314
+    ],
+    [
+      33.015,
+      55.785,
+      29.428,
+      65.376,
+      78.102,
+      34.234,
+      0.0,
+      22.672,
+      42.45,
+      40.262,
+      43.681
+    ],
+    [
+      25.456,
+      37.014,
+      23.324,
+      52.802,
+      63.891,
+      28.32,
+      22.672,
+      0.0,
+      24.331,
+      22.561,
+      39.623
+    ],
+    [
+      47.413,
+      13.342,
+      20.0,
+      30.0,
+      39.925,
+      50.537,
+      42.45,
+      24.331,
+      0.0,
+      2.236,
+      61.4
+    ],
+    [
+      46.141,
+      15.524,
+      18.028,
+      31.064,
+      41.437,
+      49.244,
+      40.262,
+      22.561,
+      2.236,
+      0.0,
+      60.208
+    ],
+    [
+      14.213,
+      71.694,
+      62.37,
+      91.269,
+      101.074,
+      11.314,
+      43.681,
+      39.623,
+      61.4,
+      60.208,
+      0.0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d",
+      "distance_matrix_index": 0,
+      "location": [
+        11.0,
+        9.0
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 451.0,
+          "end": 571.0
+        }
+      ],
+      "location": [
+        66.0,
+        28.0
+      ]
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 156.0,
+          "end": 276.0
+        }
+      ],
+      "location": [
+        41.0,
+        47.0
+      ]
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 146.0,
+          "end": 266.0
+        }
+      ],
+      "location": [
+        77.0,
+        49.0
+      ]
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 18.0,
+          "end": 138.0
+        }
+      ],
+      "location": [
+        90.0,
+        46.0
+      ]
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 1.0,
+          "end": 121.0
+        }
+      ],
+      "location": [
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 83.0,
+          "end": 203.0
+        }
+      ],
+      "location": [
+        12.0,
+        42.0
+      ]
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 137.0,
+          "end": 257.0
+        }
+      ],
+      "location": [
+        29.0,
+        27.0
+      ]
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 19
+        },
+        {
+          "service": "s6",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 124.0,
+          "end": 244.0
+        }
+      ],
+      "location": [
+        53.0,
+        31.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 19
+        },
+        {
+          "service": "s4",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 310.0,
+          "end": 430.0
+        }
+      ],
+      "location": [
+        51.0,
+        32.0
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 17,
+          "max": 34
+        }
+      }
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 19
+        },
+        {
+          "service": "s5",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 401.0,
+          "end": 521.0
+        }
+      ],
+      "location": [
+        0.0,
+        0.0
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 55,
+          "max": 110
+        }
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "type": "s1",
+      "default_duration": 19
+    },
+    {
+      "id": "s2",
+      "type": "s2",
+      "default_duration": 19
+    },
+    {
+      "id": "s3",
+      "type": "s3",
+      "default_duration": 19
+    },
+    {
+      "id": "s4",
+      "type": "s4",
+      "default_duration": 19
+    },
+    {
+      "id": "s5",
+      "type": "s5",
+      "default_duration": 19
+    },
+    {
+      "id": "s6",
+      "type": "s6",
+      "default_duration": 19
+    }
+  ]
+}

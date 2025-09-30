@@ -1,0 +1,1870 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "travel_time": 5,
+      "total_tardiness": 5,
+      "highest_tardiness": 2,
+      "total_waiting_time": 8,
+      "total_extra_time": 2,
+      "max_idle_time": 84,
+      "caregiver_preferences": 16,
+      "optional_patients": 180,
+      "missed_lunch_break": 60
+    },
+    "name": "mixed-generated-v2/instance-Kapfenberg-r_60-p_25-dp_1-apt_same_as_departure-h600-twm_at_service_end-rs_16-inc_0-opt_0.4-dtw_1.0-pcgr_0.1-sc_(9, 9)-sp_0.2",
+    "origin": "generated",
+    "horizon": 600,
+    "generator_info": {
+      "city": "Kapfenberg",
+      "radius": 60.0,
+      "patients": 25,
+      "departing_points": 1,
+      "arrival_points": 0,
+      "arrival_point_type": "same_as_departure",
+      "sync_rates": [
+        0.2,
+        0.06,
+        0.11,
+        0.63
+      ],
+      "incompatibility": 0.0,
+      "service_classes": [
+        9,
+        9
+      ],
+      "optional_rate": 0.4,
+      "double_time_window_rate": 1.0,
+      "preferred_caregiver_rate": 0.1,
+      "no_intersect_administrative": false,
+      "patient_config": {
+        "time_windows": [
+          90,
+          120,
+          150,
+          180
+        ],
+        "treatment_durations": [
+          15,
+          30,
+          45,
+          60
+        ],
+        "treatment_duration_biases": [
+          0.1,
+          0.2,
+          0.35,
+          0.35
+        ],
+        "sequential_distances": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          75,
+          90
+        ],
+        "time_window_granularity": 15
+      },
+      "caregiver_config": {
+        "shift_durations": [
+          420,
+          450,
+          480,
+          600
+        ],
+        "shift_granularity": 30
+      },
+      "random_seed": 16
+    }
+  },
+  "distances": [
+    [
+      0,
+      35,
+      18,
+      14,
+      32,
+      35,
+      27,
+      11,
+      18,
+      16,
+      58,
+      23,
+      10,
+      33,
+      13,
+      8,
+      9,
+      7,
+      10,
+      35,
+      14,
+      6,
+      21,
+      13,
+      32,
+      23
+    ],
+    [
+      35,
+      0,
+      23,
+      29,
+      57,
+      61,
+      13,
+      26,
+      23,
+      41,
+      50,
+      16,
+      39,
+      59,
+      42,
+      36,
+      29,
+      39,
+      39,
+      64,
+      40,
+      33,
+      16,
+      42,
+      61,
+      52
+    ],
+    [
+      18,
+      23,
+      0,
+      12,
+      40,
+      44,
+      15,
+      9,
+      3,
+      24,
+      64,
+      11,
+      22,
+      42,
+      25,
+      19,
+      12,
+      22,
+      22,
+      47,
+      23,
+      16,
+      9,
+      25,
+      44,
+      35
+    ],
+    [
+      13,
+      29,
+      12,
+      0,
+      36,
+      39,
+      21,
+      3,
+      12,
+      20,
+      61,
+      17,
+      17,
+      37,
+      21,
+      15,
+      7,
+      18,
+      17,
+      42,
+      18,
+      11,
+      15,
+      20,
+      39,
+      30
+    ],
+    [
+      31,
+      57,
+      40,
+      35,
+      0,
+      10,
+      48,
+      33,
+      40,
+      18,
+      82,
+      45,
+      28,
+      2,
+      27,
+      30,
+      30,
+      34,
+      33,
+      49,
+      24,
+      30,
+      43,
+      31,
+      46,
+      45
+    ],
+    [
+      35,
+      60,
+      43,
+      39,
+      10,
+      0,
+      52,
+      37,
+      43,
+      21,
+      86,
+      48,
+      32,
+      11,
+      31,
+      34,
+      34,
+      38,
+      36,
+      53,
+      28,
+      34,
+      46,
+      35,
+      50,
+      49
+    ],
+    [
+      26,
+      12,
+      15,
+      20,
+      49,
+      53,
+      0,
+      18,
+      15,
+      33,
+      56,
+      8,
+      30,
+      50,
+      34,
+      28,
+      20,
+      31,
+      31,
+      56,
+      32,
+      25,
+      8,
+      34,
+      53,
+      44
+    ],
+    [
+      11,
+      27,
+      9,
+      3,
+      34,
+      38,
+      18,
+      0,
+      9,
+      18,
+      59,
+      14,
+      15,
+      35,
+      19,
+      13,
+      5,
+      16,
+      16,
+      41,
+      17,
+      10,
+      13,
+      19,
+      38,
+      28
+    ],
+    [
+      18,
+      24,
+      3,
+      12,
+      40,
+      44,
+      15,
+      10,
+      0,
+      25,
+      64,
+      11,
+      22,
+      42,
+      26,
+      20,
+      12,
+      22,
+      22,
+      47,
+      23,
+      16,
+      10,
+      25,
+      44,
+      35
+    ],
+    [
+      17,
+      42,
+      25,
+      21,
+      18,
+      21,
+      34,
+      18,
+      25,
+      0,
+      67,
+      30,
+      13,
+      19,
+      13,
+      16,
+      16,
+      20,
+      18,
+      34,
+      10,
+      16,
+      28,
+      17,
+      31,
+      31
+    ],
+    [
+      58,
+      50,
+      64,
+      62,
+      82,
+      86,
+      56,
+      59,
+      64,
+      66,
+      0,
+      60,
+      61,
+      84,
+      65,
+      60,
+      55,
+      59,
+      55,
+      83,
+      65,
+      53,
+      60,
+      64,
+      80,
+      44
+    ],
+    [
+      22,
+      16,
+      11,
+      16,
+      45,
+      49,
+      8,
+      14,
+      11,
+      29,
+      60,
+      0,
+      27,
+      46,
+      30,
+      24,
+      16,
+      27,
+      27,
+      52,
+      28,
+      21,
+      4,
+      30,
+      49,
+      40
+    ],
+    [
+      10,
+      39,
+      22,
+      18,
+      28,
+      32,
+      31,
+      16,
+      22,
+      12,
+      61,
+      27,
+      0,
+      29,
+      6,
+      8,
+      13,
+      13,
+      8,
+      27,
+      8,
+      13,
+      25,
+      6,
+      24,
+      21
+    ],
+    [
+      32,
+      58,
+      41,
+      37,
+      2,
+      11,
+      50,
+      34,
+      41,
+      19,
+      83,
+      46,
+      29,
+      0,
+      29,
+      31,
+      32,
+      36,
+      34,
+      50,
+      26,
+      31,
+      44,
+      33,
+      47,
+      47
+    ],
+    [
+      13,
+      43,
+      26,
+      21,
+      27,
+      31,
+      34,
+      19,
+      26,
+      11,
+      65,
+      31,
+      6,
+      29,
+      0,
+      11,
+      16,
+      17,
+      11,
+      23,
+      7,
+      16,
+      29,
+      9,
+      20,
+      24
+    ],
+    [
+      7,
+      37,
+      20,
+      16,
+      30,
+      34,
+      29,
+      13,
+      20,
+      15,
+      60,
+      25,
+      8,
+      32,
+      11,
+      0,
+      11,
+      11,
+      6,
+      33,
+      13,
+      10,
+      23,
+      11,
+      30,
+      19
+    ],
+    [
+      8,
+      29,
+      12,
+      7,
+      31,
+      34,
+      20,
+      5,
+      12,
+      15,
+      55,
+      17,
+      12,
+      32,
+      16,
+      10,
+      0,
+      13,
+      13,
+      38,
+      13,
+      6,
+      15,
+      16,
+      35,
+      25
+    ],
+    [
+      7,
+      40,
+      22,
+      18,
+      35,
+      38,
+      31,
+      16,
+      23,
+      19,
+      59,
+      28,
+      13,
+      36,
+      17,
+      11,
+      13,
+      0,
+      13,
+      38,
+      17,
+      10,
+      26,
+      16,
+      35,
+      26
+    ],
+    [
+      10,
+      40,
+      22,
+      18,
+      33,
+      36,
+      31,
+      16,
+      22,
+      17,
+      55,
+      27,
+      8,
+      34,
+      11,
+      6,
+      13,
+      13,
+      0,
+      33,
+      13,
+      13,
+      26,
+      11,
+      30,
+      14
+    ],
+    [
+      35,
+      65,
+      47,
+      43,
+      49,
+      53,
+      56,
+      41,
+      48,
+      33,
+      84,
+      53,
+      28,
+      50,
+      23,
+      33,
+      38,
+      38,
+      33,
+      0,
+      29,
+      38,
+      51,
+      31,
+      5,
+      43
+    ],
+    [
+      13,
+      39,
+      22,
+      18,
+      24,
+      27,
+      31,
+      15,
+      22,
+      8,
+      64,
+      27,
+      8,
+      25,
+      7,
+      12,
+      13,
+      17,
+      13,
+      29,
+      0,
+      12,
+      25,
+      11,
+      26,
+      26
+    ],
+    [
+      6,
+      33,
+      16,
+      12,
+      30,
+      34,
+      25,
+      10,
+      16,
+      15,
+      53,
+      21,
+      12,
+      32,
+      15,
+      10,
+      7,
+      10,
+      12,
+      37,
+      13,
+      0,
+      19,
+      15,
+      34,
+      25
+    ],
+    [
+      19,
+      17,
+      7,
+      13,
+      41,
+      45,
+      9,
+      10,
+      7,
+      25,
+      61,
+      5,
+      23,
+      43,
+      26,
+      20,
+      13,
+      23,
+      23,
+      48,
+      24,
+      17,
+      0,
+      26,
+      45,
+      36
+    ],
+    [
+      13,
+      42,
+      25,
+      21,
+      31,
+      35,
+      34,
+      19,
+      25,
+      16,
+      64,
+      30,
+      6,
+      33,
+      9,
+      11,
+      16,
+      16,
+      11,
+      31,
+      11,
+      16,
+      28,
+      0,
+      28,
+      24
+    ],
+    [
+      32,
+      62,
+      44,
+      40,
+      46,
+      50,
+      53,
+      38,
+      44,
+      30,
+      80,
+      49,
+      25,
+      47,
+      20,
+      30,
+      35,
+      35,
+      30,
+      5,
+      26,
+      35,
+      48,
+      28,
+      0,
+      40
+    ],
+    [
+      23,
+      52,
+      35,
+      31,
+      46,
+      49,
+      44,
+      29,
+      35,
+      30,
+      44,
+      40,
+      21,
+      47,
+      24,
+      19,
+      26,
+      26,
+      14,
+      43,
+      26,
+      26,
+      38,
+      24,
+      40,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d0",
+      "distance_matrix_index": 0,
+      "location": [
+        15.326323026169506,
+        47.45905624695688
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s8",
+        "s3",
+        "s0",
+        "s1"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 30,
+        "end": 510
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s5",
+        "s1"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 60,
+        "end": 480
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s16",
+        "s14",
+        "s12",
+        "s13",
+        "s9",
+        "s10"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 120,
+        "end": 540
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c4",
+      "abilities": [
+        "s17",
+        "s15",
+        "s14",
+        "s12"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 90,
+        "end": 570
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c5",
+      "abilities": [
+        "s7",
+        "s5"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 150,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c6",
+      "abilities": [
+        "s4",
+        "s7",
+        "s3"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 90,
+        "end": 510
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c7",
+      "abilities": [
+        "s2",
+        "s6",
+        "s1",
+        "s8"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 90,
+        "end": 570
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c8",
+      "abilities": [
+        "s11",
+        "s13",
+        "s17",
+        "s14",
+        "s10",
+        "s16"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 0,
+        "end": 480
+      },
+      "lunch_break": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "p0",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 60
+        },
+        {
+          "service": "s9",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 210
+        },
+        {
+          "start": 210,
+          "end": 450
+        }
+      ],
+      "location": [
+        15.640720049948762,
+        47.65972465636788
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 0,
+          "max": 30
+        }
+      },
+      "optional": true
+    },
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s12",
+          "duration": 45
+        },
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 60,
+          "end": 360
+        },
+        {
+          "start": 375,
+          "end": 555
+        }
+      ],
+      "location": [
+        15.535241402076581,
+        47.54785945541213
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "optional": false
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s12",
+          "duration": 45
+        },
+        {
+          "service": "s8",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 315
+        },
+        {
+          "start": 390,
+          "end": 570
+        }
+      ],
+      "location": [
+        15.437780857551841,
+        47.50766547188618
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 60
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 255
+        },
+        {
+          "start": 300,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.439681671725387,
+        47.39932936529372
+      ],
+      "preferred_caregivers": [
+        "c7",
+        "c2"
+      ],
+      "optional": true
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s11",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 195
+        },
+        {
+          "start": 255,
+          "end": 435
+        }
+      ],
+      "location": [
+        15.451946662276578,
+        47.389694755685106
+      ],
+      "optional": false
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s10",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 270
+        },
+        {
+          "start": 360,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.674598569012577,
+        47.6038428029516
+      ],
+      "optional": false
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s7",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 240
+        },
+        {
+          "start": 300,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.451017638665151,
+        47.507003971827935
+      ],
+      "optional": true
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s15",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 90,
+          "end": 270
+        },
+        {
+          "start": 300,
+          "end": 480
+        }
+      ],
+      "location": [
+        15.547522362089943,
+        47.53821464837691
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "optional": false
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 60
+        },
+        {
+          "service": "s11",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 90,
+          "end": 330
+        },
+        {
+          "start": 390,
+          "end": 570
+        }
+      ],
+      "location": [
+        15.317101462673135,
+        47.369313037675035
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 45,
+          "max": 75
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s9",
+          "duration": 45
+        },
+        {
+          "service": "s8",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 210
+        },
+        {
+          "start": 210,
+          "end": 510
+        }
+      ],
+      "location": [
+        15.341874540952139,
+        47.737877771636064
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "optional": true
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s13",
+          "duration": 60
+        },
+        {
+          "service": "s0",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 11,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 195
+        },
+        {
+          "start": 225,
+          "end": 405
+        }
+      ],
+      "location": [
+        15.645129062298626,
+        47.57830846585665
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "optional": true
+    },
+    {
+      "id": "p11",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 30
+        },
+        {
+          "service": "s9",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 12,
+      "time_windows": [
+        {
+          "start": 150,
+          "end": 330
+        },
+        {
+          "start": 375,
+          "end": 555
+        }
+      ],
+      "location": [
+        15.270674339496676,
+        47.434707762995046
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 45,
+          "max": 75
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p12",
+      "required_services": [
+        {
+          "service": "s15",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 13,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 270
+        },
+        {
+          "start": 405,
+          "end": 585
+        }
+      ],
+      "location": [
+        15.440624035409423,
+        47.40830253774243
+      ],
+      "optional": true
+    },
+    {
+      "id": "p13",
+      "required_services": [
+        {
+          "service": "s14",
+          "duration": 45
+        },
+        {
+          "service": "s4",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 14,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 240
+        },
+        {
+          "start": 330,
+          "end": 570
+        }
+      ],
+      "location": [
+        15.25654270361339,
+        47.42637235400386
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 75
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p14",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 45
+        },
+        {
+          "service": "s12",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 15,
+      "time_windows": [
+        {
+          "start": 45,
+          "end": 285
+        },
+        {
+          "start": 330,
+          "end": 510
+        }
+      ],
+      "location": [
+        15.298951572012117,
+        47.45137284790165
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 60,
+          "max": 75
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p15",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 45
+        },
+        {
+          "service": "s9",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 16,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 210
+        },
+        {
+          "start": 225,
+          "end": 525
+        }
+      ],
+      "location": [
+        15.395256357186437,
+        47.48272081318597
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 90,
+          "max": 90
+        }
+      },
+      "optional": true
+    },
+    {
+      "id": "p16",
+      "required_services": [
+        {
+          "service": "s10",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 17,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 315
+        },
+        {
+          "start": 330,
+          "end": 510
+        }
+      ],
+      "location": [
+        15.288480134072966,
+        47.47893905185123
+      ],
+      "optional": true
+    },
+    {
+      "id": "p17",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 45
+        },
+        {
+          "service": "s14",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 18,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 390
+        },
+        {
+          "start": 390,
+          "end": 570
+        }
+      ],
+      "location": [
+        15.272502919988323,
+        47.45265712142203
+      ],
+      "synchronization": {
+        "type": "independent"
+      },
+      "optional": false
+    },
+    {
+      "id": "p18",
+      "required_services": [
+        {
+          "service": "s16",
+          "duration": 30
+        },
+        {
+          "service": "s3",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 19,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 300
+        },
+        {
+          "start": 360,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.08115756239547,
+        47.53389515341429
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 30,
+          "max": 90
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p19",
+      "required_services": [
+        {
+          "service": "s16",
+          "duration": 60
+        },
+        {
+          "service": "s2",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 20,
+      "time_windows": [
+        {
+          "start": 60,
+          "end": 300
+        },
+        {
+          "start": 300,
+          "end": 600
+        }
+      ],
+      "location": [
+        15.267934505183206,
+        47.40778333703729
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 60,
+          "max": 75
+        }
+      },
+      "preferred_caregivers": [
+        "c8",
+        "c3",
+        "c7"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p20",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 45
+        },
+        {
+          "service": "s17",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 21,
+      "time_windows": [
+        {
+          "start": 30,
+          "end": 210
+        },
+        {
+          "start": 405,
+          "end": 585
+        }
+      ],
+      "location": [
+        15.35463215446615,
+        47.47570638516871
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 0,
+          "max": 60
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p21",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 60
+        },
+        {
+          "service": "s16",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 22,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 240
+        },
+        {
+          "start": 330,
+          "end": 510
+        }
+      ],
+      "location": [
+        15.616666943054545,
+        47.561736190033386
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 45,
+          "max": 90
+        }
+      },
+      "optional": false
+    },
+    {
+      "id": "p22",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 23,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 240
+        },
+        {
+          "start": 390,
+          "end": 570
+        }
+      ],
+      "location": [
+        15.283894268007602,
+        47.434066684361795
+      ],
+      "optional": false
+    },
+    {
+      "id": "p23",
+      "required_services": [
+        {
+          "service": "s15",
+          "duration": 60
+        },
+        {
+          "service": "s3",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 24,
+      "time_windows": [
+        {
+          "start": 45,
+          "end": 285
+        },
+        {
+          "start": 285,
+          "end": 585
+        }
+      ],
+      "location": [
+        15.078508254699907,
+        47.506966602514616
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 60
+        }
+      },
+      "optional": true
+    },
+    {
+      "id": "p24",
+      "required_services": [
+        {
+          "service": "s17",
+          "duration": 30
+        },
+        {
+          "service": "s3",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 25,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 300
+        },
+        {
+          "start": 360,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.240103591604484,
+        47.52636994278979
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 90
+        }
+      },
+      "optional": true
+    }
+  ],
+  "services": [
+    {
+      "id": "s0",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s1",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s2",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s3",
+      "type": "t0",
+      "default_duration": 60
+    },
+    {
+      "id": "s4",
+      "type": "t0",
+      "default_duration": 60
+    },
+    {
+      "id": "s5",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s6",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s7",
+      "type": "t0",
+      "default_duration": 60
+    },
+    {
+      "id": "s8",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s9",
+      "type": "t1",
+      "default_duration": 60
+    },
+    {
+      "id": "s10",
+      "type": "t1",
+      "default_duration": 45
+    },
+    {
+      "id": "s11",
+      "type": "t1",
+      "default_duration": 30
+    },
+    {
+      "id": "s12",
+      "type": "t1",
+      "default_duration": 45
+    },
+    {
+      "id": "s13",
+      "type": "t1",
+      "default_duration": 60
+    },
+    {
+      "id": "s14",
+      "type": "t1",
+      "default_duration": 45
+    },
+    {
+      "id": "s15",
+      "type": "t1",
+      "default_duration": 30
+    },
+    {
+      "id": "s16",
+      "type": "t1",
+      "default_duration": 60
+    },
+    {
+      "id": "s17",
+      "type": "t1",
+      "default_duration": 45
+    }
+  ],
+  "lunch_breaks": {
+    "start": 180,
+    "end": 360,
+    "min_duration": 30
+  }
+}

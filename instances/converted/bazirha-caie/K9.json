@@ -1,0 +1,1546 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "total_tardiness": "HARD",
+      "total_waiting_time": 1,
+      "total_extra_time": "HARD",
+      "workload_balance": 1
+    },
+    "name": "K9",
+    "origin": "bazirha-caie",
+    "horizon": 1000
+  },
+  "distances": [
+    [
+      0,
+      56,
+      106,
+      133,
+      100,
+      86,
+      112,
+      108,
+      72,
+      84,
+      48,
+      92,
+      146,
+      40,
+      38,
+      81,
+      102,
+      95,
+      93,
+      50,
+      121,
+      86,
+      52,
+      38,
+      24,
+      90
+    ],
+    [
+      56,
+      0,
+      130,
+      79,
+      79,
+      30,
+      97,
+      112,
+      114,
+      137,
+      79,
+      37,
+      93,
+      47,
+      65,
+      26,
+      77,
+      76,
+      56,
+      76,
+      65,
+      104,
+      16,
+      94,
+      63,
+      43
+    ],
+    [
+      106,
+      130,
+      0,
+      169,
+      202,
+      152,
+      216,
+      215,
+      48,
+      88,
+      57,
+      164,
+      178,
+      145,
+      71,
+      153,
+      202,
+      197,
+      186,
+      57,
+      180,
+      191,
+      114,
+      103,
+      82,
+      174
+    ],
+    [
+      133,
+      79,
+      169,
+      0,
+      130,
+      54,
+      148,
+      176,
+      173,
+      207,
+      136,
+      60,
+      13,
+      125,
+      126,
+      62,
+      123,
+      130,
+      100,
+      131,
+      35,
+      176,
+      81,
+      170,
+      132,
+      80
+    ],
+    [
+      100,
+      79,
+      202,
+      130,
+      0,
+      81,
+      18,
+      49,
+      172,
+      179,
+      144,
+      71,
+      142,
+      59,
+      131,
+      74,
+      8,
+      5,
+      30,
+      144,
+      97,
+      63,
+      95,
+      128,
+      121,
+      50
+    ],
+    [
+      86,
+      30,
+      152,
+      54,
+      81,
+      0,
+      100,
+      124,
+      142,
+      168,
+      105,
+      13,
+      68,
+      71,
+      92,
+      8,
+      76,
+      80,
+      52,
+      102,
+      34,
+      122,
+      40,
+      124,
+      92,
+      32
+    ],
+    [
+      112,
+      97,
+      216,
+      148,
+      18,
+      100,
+      0,
+      36,
+      184,
+      187,
+      159,
+      90,
+      160,
+      72,
+      145,
+      93,
+      25,
+      21,
+      48,
+      159,
+      115,
+      59,
+      113,
+      136,
+      135,
+      69
+    ],
+    [
+      108,
+      112,
+      215,
+      176,
+      49,
+      124,
+      36,
+      0,
+      176,
+      171,
+      157,
+      116,
+      188,
+      72,
+      145,
+      116,
+      57,
+      47,
+      77,
+      159,
+      144,
+      30,
+      125,
+      122,
+      132,
+      96
+    ],
+    [
+      72,
+      114,
+      48,
+      173,
+      172,
+      142,
+      184,
+      176,
+      0,
+      43,
+      37,
+      151,
+      185,
+      112,
+      49,
+      139,
+      174,
+      167,
+      162,
+      41,
+      174,
+      150,
+      101,
+      57,
+      52,
+      156
+    ],
+    [
+      84,
+      137,
+      88,
+      207,
+      179,
+      168,
+      187,
+      171,
+      43,
+      0,
+      72,
+      175,
+      219,
+      121,
+      81,
+      164,
+      183,
+      174,
+      176,
+      78,
+      202,
+      142,
+      128,
+      51,
+      75,
+      174
+    ],
+    [
+      48,
+      79,
+      57,
+      136,
+      144,
+      105,
+      159,
+      157,
+      37,
+      72,
+      0,
+      116,
+      148,
+      87,
+      14,
+      104,
+      145,
+      140,
+      131,
+      5,
+      137,
+      135,
+      65,
+      57,
+      24,
+      122
+    ],
+    [
+      92,
+      37,
+      164,
+      60,
+      71,
+      13,
+      90,
+      116,
+      151,
+      175,
+      116,
+      0,
+      72,
+      71,
+      102,
+      12,
+      65,
+      70,
+      41,
+      113,
+      32,
+      117,
+      51,
+      130,
+      101,
+      20
+    ],
+    [
+      146,
+      93,
+      178,
+      13,
+      142,
+      68,
+      160,
+      188,
+      185,
+      219,
+      148,
+      72,
+      0,
+      139,
+      138,
+      75,
+      135,
+      142,
+      112,
+      143,
+      45,
+      189,
+      94,
+      183,
+      145,
+      92
+    ],
+    [
+      40,
+      47,
+      145,
+      125,
+      59,
+      71,
+      72,
+      72,
+      112,
+      121,
+      87,
+      71,
+      139,
+      0,
+      74,
+      64,
+      62,
+      55,
+      57,
+      88,
+      103,
+      57,
+      56,
+      70,
+      63,
+      61
+    ],
+    [
+      38,
+      65,
+      71,
+      126,
+      131,
+      92,
+      145,
+      145,
+      49,
+      81,
+      14,
+      102,
+      138,
+      74,
+      0,
+      90,
+      131,
+      126,
+      116,
+      13,
+      124,
+      124,
+      51,
+      55,
+      15,
+      107
+    ],
+    [
+      81,
+      26,
+      153,
+      62,
+      74,
+      8,
+      93,
+      116,
+      139,
+      164,
+      104,
+      12,
+      75,
+      64,
+      90,
+      0,
+      69,
+      72,
+      45,
+      101,
+      40,
+      114,
+      39,
+      119,
+      89,
+      26
+    ],
+    [
+      102,
+      77,
+      202,
+      123,
+      8,
+      76,
+      25,
+      57,
+      174,
+      183,
+      145,
+      65,
+      135,
+      62,
+      131,
+      69,
+      0,
+      11,
+      24,
+      144,
+      90,
+      71,
+      93,
+      132,
+      123,
+      44
+    ],
+    [
+      95,
+      76,
+      197,
+      130,
+      5,
+      80,
+      21,
+      47,
+      167,
+      174,
+      140,
+      70,
+      142,
+      55,
+      126,
+      72,
+      11,
+      0,
+      30,
+      140,
+      97,
+      60,
+      92,
+      123,
+      117,
+      50
+    ],
+    [
+      93,
+      56,
+      186,
+      100,
+      30,
+      52,
+      48,
+      77,
+      162,
+      176,
+      131,
+      41,
+      112,
+      57,
+      116,
+      45,
+      24,
+      30,
+      0,
+      129,
+      67,
+      84,
+      73,
+      126,
+      110,
+      20
+    ],
+    [
+      50,
+      76,
+      57,
+      131,
+      144,
+      102,
+      159,
+      159,
+      41,
+      78,
+      5,
+      113,
+      143,
+      88,
+      13,
+      101,
+      144,
+      140,
+      129,
+      0,
+      133,
+      137,
+      62,
+      62,
+      26,
+      119
+    ],
+    [
+      121,
+      65,
+      180,
+      35,
+      97,
+      34,
+      115,
+      144,
+      174,
+      202,
+      137,
+      32,
+      45,
+      103,
+      124,
+      40,
+      90,
+      97,
+      67,
+      133,
+      0,
+      148,
+      73,
+      159,
+      126,
+      48
+    ],
+    [
+      86,
+      104,
+      191,
+      176,
+      63,
+      122,
+      59,
+      30,
+      150,
+      142,
+      135,
+      117,
+      189,
+      57,
+      124,
+      114,
+      71,
+      60,
+      84,
+      137,
+      148,
+      0,
+      114,
+      94,
+      110,
+      100
+    ],
+    [
+      52,
+      16,
+      114,
+      81,
+      95,
+      40,
+      113,
+      125,
+      101,
+      128,
+      65,
+      51,
+      94,
+      56,
+      51,
+      39,
+      93,
+      92,
+      73,
+      62,
+      73,
+      114,
+      0,
+      89,
+      53,
+      59
+    ],
+    [
+      38,
+      94,
+      103,
+      170,
+      128,
+      124,
+      136,
+      122,
+      57,
+      51,
+      57,
+      130,
+      183,
+      70,
+      55,
+      119,
+      132,
+      123,
+      126,
+      62,
+      159,
+      94,
+      89,
+      0,
+      42,
+      126
+    ],
+    [
+      24,
+      63,
+      82,
+      132,
+      121,
+      92,
+      135,
+      132,
+      52,
+      75,
+      24,
+      101,
+      145,
+      63,
+      15,
+      89,
+      123,
+      117,
+      110,
+      26,
+      126,
+      110,
+      53,
+      42,
+      0,
+      104
+    ],
+    [
+      90,
+      43,
+      174,
+      80,
+      50,
+      32,
+      69,
+      96,
+      156,
+      174,
+      122,
+      20,
+      92,
+      61,
+      107,
+      26,
+      44,
+      50,
+      20,
+      119,
+      48,
+      100,
+      59,
+      126,
+      104,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d1",
+      "distance_matrix_index": 0,
+      "location": [
+        117.0,
+        116.0
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s1",
+        "s2"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s4",
+        "s5"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c4",
+      "abilities": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c5",
+      "abilities": [
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c6",
+      "abilities": [
+        "s4",
+        "s6"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c7",
+      "abilities": [
+        "s1",
+        "s2"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c8",
+      "abilities": [
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 12
+        },
+        {
+          "service": "s5",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 77.0,
+          "end": 197.0
+        },
+        {
+          "start": 369.0,
+          "end": 489.0
+        }
+      ],
+      "location": [
+        71.0,
+        84.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 12
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 36.0,
+          "end": 156.0
+        },
+        {
+          "start": 368.0,
+          "end": 488.0
+        }
+      ],
+      "location": [
+        196.0,
+        45.0
+      ]
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 11
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 160.0,
+          "end": 280.0
+        },
+        {
+          "start": 400.0,
+          "end": 520.0
+        }
+      ],
+      "location": [
+        29.0,
+        16.0
+      ]
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 10
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 16.0,
+          "end": 136.0
+        },
+        {
+          "start": 478.0,
+          "end": 598.0
+        }
+      ],
+      "location": [
+        21.0,
+        146.0
+      ]
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 18
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 83.0,
+          "end": 203.0
+        },
+        {
+          "start": 432.0,
+          "end": 552.0
+        }
+      ],
+      "location": [
+        45.0,
+        68.0
+      ]
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 14
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 50.0,
+          "end": 170.0
+        },
+        {
+          "start": 339.0,
+          "end": 459.0
+        }
+      ],
+      "location": [
+        15.0,
+        164.0
+      ]
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 13
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 112.0,
+          "end": 232.0
+        },
+        {
+          "start": 473.0,
+          "end": 593.0
+        }
+      ],
+      "location": [
+        39.0,
+        192.0
+      ]
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 130.0,
+          "end": 250.0
+        },
+        {
+          "start": 440.0,
+          "end": 560.0
+        }
+      ],
+      "location": [
+        185.0,
+        92.0
+      ]
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 13
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 98.0,
+          "end": 218.0
+        },
+        {
+          "start": 415.0,
+          "end": 535.0
+        }
+      ],
+      "location": [
+        200.0,
+        133.0
+      ]
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 12
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 107.0,
+          "end": 227.0
+        },
+        {
+          "start": 423.0,
+          "end": 543.0
+        }
+      ],
+      "location": [
+        150.0,
+        80.0
+      ]
+    },
+    {
+      "id": "p11",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 11
+        }
+      ],
+      "distance_matrix_index": 11,
+      "time_windows": [
+        {
+          "start": 87.0,
+          "end": 207.0
+        },
+        {
+          "start": 327.0,
+          "end": 447.0
+        }
+      ],
+      "location": [
+        34.0,
+        76.0
+      ]
+    },
+    {
+      "id": "p12",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 12,
+      "time_windows": [
+        {
+          "start": 149.0,
+          "end": 269.0
+        },
+        {
+          "start": 430.0,
+          "end": 550.0
+        }
+      ],
+      "location": [
+        22.0,
+        4.0
+      ]
+    },
+    {
+      "id": "p13",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 13
+        },
+        {
+          "service": "s4",
+          "duration": 20
+        }
+      ],
+      "distance_matrix_index": 13,
+      "time_windows": [
+        {
+          "start": 76.0,
+          "end": 196.0
+        },
+        {
+          "start": 364.0,
+          "end": 484.0
+        }
+      ],
+      "location": [
+        79.0,
+        131.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p14",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 12
+        }
+      ],
+      "distance_matrix_index": 14,
+      "time_windows": [
+        {
+          "start": 155.0,
+          "end": 275.0
+        },
+        {
+          "start": 395.0,
+          "end": 515.0
+        }
+      ],
+      "location": [
+        136.0,
+        83.0
+      ]
+    },
+    {
+      "id": "p15",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 19
+        },
+        {
+          "service": "s5",
+          "duration": 11
+        }
+      ],
+      "distance_matrix_index": 15,
+      "time_windows": [
+        {
+          "start": 172.0,
+          "end": 292.0
+        },
+        {
+          "start": 445.0,
+          "end": 565.0
+        }
+      ],
+      "location": [
+        46.0,
+        76.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p16",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 11
+        },
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 16,
+      "time_windows": [
+        {
+          "start": 120.0,
+          "end": 240.0
+        },
+        {
+          "start": 398.0,
+          "end": 518.0
+        }
+      ],
+      "location": [
+        17.0,
+        139.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p17",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        },
+        {
+          "service": "s4",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 17,
+      "time_windows": [
+        {
+          "start": 77.0,
+          "end": 197.0
+        },
+        {
+          "start": 374.0,
+          "end": 494.0
+        }
+      ],
+      "location": [
+        26.0,
+        146.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p18",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 16
+        }
+      ],
+      "distance_matrix_index": 18,
+      "time_windows": [
+        {
+          "start": 0.0,
+          "end": 120.0
+        },
+        {
+          "start": 347.0,
+          "end": 467.0
+        }
+      ],
+      "location": [
+        24.0,
+        116.0
+      ]
+    },
+    {
+      "id": "p19",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 11
+        }
+      ],
+      "distance_matrix_index": 19,
+      "time_windows": [
+        {
+          "start": 60.0,
+          "end": 180.0
+        },
+        {
+          "start": 439.0,
+          "end": 559.0
+        }
+      ],
+      "location": [
+        147.0,
+        75.0
+      ]
+    },
+    {
+      "id": "p20",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 20,
+      "time_windows": [
+        {
+          "start": 171.0,
+          "end": 291.0
+        },
+        {
+          "start": 411.0,
+          "end": 531.0
+        }
+      ],
+      "location": [
+        16.0,
+        49.0
+      ]
+    },
+    {
+      "id": "p21",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 13
+        },
+        {
+          "service": "s6",
+          "duration": 14
+        }
+      ],
+      "distance_matrix_index": 21,
+      "time_windows": [
+        {
+          "start": 172.0,
+          "end": 292.0
+        },
+        {
+          "start": 412.0,
+          "end": 532.0
+        }
+      ],
+      "location": [
+        69.0,
+        188.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p22",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 14
+        },
+        {
+          "service": "s4",
+          "duration": 14
+        }
+      ],
+      "distance_matrix_index": 22,
+      "time_windows": [
+        {
+          "start": 116.0,
+          "end": 236.0
+        },
+        {
+          "start": 432.0,
+          "end": 552.0
+        }
+      ],
+      "location": [
+        85.0,
+        75.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p23",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 17
+        }
+      ],
+      "distance_matrix_index": 23,
+      "time_windows": [
+        {
+          "start": 44.0,
+          "end": 164.0
+        },
+        {
+          "start": 406.0,
+          "end": 526.0
+        }
+      ],
+      "location": [
+        149.0,
+        137.0
+      ]
+    },
+    {
+      "id": "p24",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 10
+        },
+        {
+          "service": "s6",
+          "duration": 14
+        }
+      ],
+      "distance_matrix_index": 24,
+      "time_windows": [
+        {
+          "start": 61.0,
+          "end": 181.0
+        },
+        {
+          "start": 380.0,
+          "end": 500.0
+        }
+      ],
+      "location": [
+        133.0,
+        98.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p25",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 14
+        }
+      ],
+      "distance_matrix_index": 25,
+      "time_windows": [
+        {
+          "start": 178.0,
+          "end": 298.0
+        },
+        {
+          "start": 476.0,
+          "end": 596.0
+        }
+      ],
+      "location": [
+        29.0,
+        96.0
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "type": "s1"
+    },
+    {
+      "id": "s2",
+      "type": "s2"
+    },
+    {
+      "id": "s3",
+      "type": "s3"
+    },
+    {
+      "id": "s4",
+      "type": "s4"
+    },
+    {
+      "id": "s5",
+      "type": "s5"
+    },
+    {
+      "id": "s6",
+      "type": "s6"
+    }
+  ]
+}

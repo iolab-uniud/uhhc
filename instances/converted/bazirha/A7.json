@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "travel_time": 1,
+      "total_tardiness": "HARD",
+      "total_extra_time": "HARD"
+    },
+    "name": "A7",
+    "origin": "bazirha",
+    "horizon": 1000
+  },
+  "distances": [
+    [
+      0,
+      16,
+      40,
+      18,
+      38,
+      47,
+      52,
+      19,
+      50,
+      76,
+      70
+    ],
+    [
+      16,
+      0,
+      33,
+      19,
+      23,
+      34,
+      59,
+      13,
+      35,
+      82,
+      73
+    ],
+    [
+      40,
+      33,
+      0,
+      22,
+      41,
+      20,
+      92,
+      47,
+      28,
+      115,
+      106
+    ],
+    [
+      18,
+      19,
+      22,
+      0,
+      38,
+      34,
+      70,
+      31,
+      39,
+      95,
+      88
+    ],
+    [
+      38,
+      23,
+      41,
+      38,
+      0,
+      28,
+      71,
+      26,
+      23,
+      91,
+      77
+    ],
+    [
+      47,
+      34,
+      20,
+      34,
+      28,
+      0,
+      93,
+      45,
+      8,
+      115,
+      103
+    ],
+    [
+      52,
+      59,
+      92,
+      70,
+      71,
+      93,
+      0,
+      47,
+      92,
+      24,
+      25
+    ],
+    [
+      19,
+      13,
+      47,
+      31,
+      26,
+      45,
+      47,
+      0,
+      44,
+      70,
+      59
+    ],
+    [
+      50,
+      35,
+      28,
+      39,
+      23,
+      8,
+      92,
+      44,
+      0,
+      113,
+      100
+    ],
+    [
+      76,
+      82,
+      115,
+      95,
+      91,
+      115,
+      24,
+      70,
+      113,
+      0,
+      20
+    ],
+    [
+      70,
+      73,
+      106,
+      88,
+      77,
+      103,
+      25,
+      59,
+      100,
+      20,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d1",
+      "distance_matrix_index": 0,
+      "location": [
+        50.0,
+        69.0
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s4",
+        "s6"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s1",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s1",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 434.0,
+          "end": 554.0
+        }
+      ],
+      "location": [
+        35.0,
+        63.0
+      ]
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 299.0,
+          "end": 419.0
+        }
+      ],
+      "location": [
+        16.0,
+        91.0
+      ]
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 428.0,
+          "end": 548.0
+        }
+      ],
+      "location": [
+        37.0,
+        82.0
+      ]
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 364.0,
+          "end": 484.0
+        }
+      ],
+      "location": [
+        16.0,
+        50.0
+      ]
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 157.0,
+          "end": 277.0
+        }
+      ],
+      "location": [
+        3.0,
+        75.0
+      ]
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 17
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 258.0,
+          "end": 378.0
+        }
+      ],
+      "location": [
+        84.0,
+        29.0
+      ]
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 19
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 396.0,
+          "end": 516.0
+        }
+      ],
+      "location": [
+        42.0,
+        51.0
+      ]
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 20
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 73.0,
+          "end": 193.0
+        }
+      ],
+      "location": [
+        0.0,
+        67.0
+      ]
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 20
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 100.0,
+          "end": 220.0
+        }
+      ],
+      "location": [
+        98.0,
+        9.0
+      ]
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 16
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 206.0,
+          "end": 326.0
+        }
+      ],
+      "location": [
+        78.0,
+        4.0
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "type": "s1"
+    },
+    {
+      "id": "s2",
+      "type": "s2"
+    },
+    {
+      "id": "s3",
+      "type": "s3"
+    },
+    {
+      "id": "s4",
+      "type": "s4"
+    },
+    {
+      "id": "s5",
+      "type": "s5"
+    },
+    {
+      "id": "s6",
+      "type": "s6"
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "cost_components": {
+      "travel_time": 1,
+      "total_tardiness": 1,
+      "highest_tardiness": 1
+    },
+    "area": null,
+    "name": "HHCRSP_10_3_88_1.6_R_C",
+    "origin": "kummer"
+  },
+  "distances": [
+    [
+      0.0,
+      42.0,
+      40.0,
+      47.0,
+      42.0,
+      47.0,
+      47.0,
+      0.0,
+      43.0,
+      43.0,
+      39.0
+    ],
+    [
+      42.0,
+      0.0,
+      10.0,
+      12.0,
+      3.0,
+      12.0,
+      12.0,
+      42.0,
+      5.0,
+      5.0,
+      9.0
+    ],
+    [
+      40.0,
+      10.0,
+      0.0,
+      14.0,
+      9.0,
+      14.0,
+      14.0,
+      40.0,
+      11.0,
+      10.0,
+      4.0
+    ],
+    [
+      46.0,
+      12.0,
+      14.0,
+      0.0,
+      11.0,
+      1.0,
+      1.0,
+      46.0,
+      11.0,
+      9.0,
+      14.0
+    ],
+    [
+      42.0,
+      3.0,
+      9.0,
+      11.0,
+      0.0,
+      11.0,
+      11.0,
+      42.0,
+      4.0,
+      4.0,
+      9.0
+    ],
+    [
+      46.0,
+      12.0,
+      14.0,
+      1.0,
+      11.0,
+      0.0,
+      1.0,
+      46.0,
+      11.0,
+      9.0,
+      14.0
+    ],
+    [
+      46.0,
+      11.0,
+      14.0,
+      1.0,
+      10.0,
+      1.0,
+      0.0,
+      46.0,
+      10.0,
+      9.0,
+      13.0
+    ],
+    [
+      0.0,
+      42.0,
+      40.0,
+      47.0,
+      42.0,
+      47.0,
+      47.0,
+      0.0,
+      43.0,
+      43.0,
+      39.0
+    ],
+    [
+      42.0,
+      5.0,
+      11.0,
+      11.0,
+      3.0,
+      11.0,
+      10.0,
+      42.0,
+      0.0,
+      2.0,
+      11.0
+    ],
+    [
+      42.0,
+      4.0,
+      10.0,
+      9.0,
+      3.0,
+      9.0,
+      9.0,
+      42.0,
+      2.0,
+      0.0,
+      10.0
+    ],
+    [
+      39.0,
+      9.0,
+      3.0,
+      13.0,
+      8.0,
+      13.0,
+      13.0,
+      39.0,
+      10.0,
+      9.0,
+      0.0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d",
+      "distance_matrix_index": 0,
+      "location": [
+        -30.011,
+        -51.117
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s5"
+      ],
+      "departing_point": "d",
+      "arrival_point": "d"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 42
+        },
+        {
+          "service": "s6",
+          "duration": 59
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 692.0,
+          "end": 812.0
+        }
+      ],
+      "location": [
+        -30.158,
+        -51.167
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 33
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 677.0,
+          "end": 797.0
+        }
+      ],
+      "location": [
+        -30.159,
+        -51.134
+      ]
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 32
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 744.0,
+          "end": 864.0
+        }
+      ],
+      "location": [
+        -30.183,
+        -51.181
+      ]
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 47
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 948.0,
+          "end": 1068.0
+        }
+      ],
+      "location": [
+        -30.157,
+        -51.169
+      ]
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 44
+        },
+        {
+          "service": "s6",
+          "duration": 44
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 772.0,
+          "end": 892.0
+        }
+      ],
+      "location": [
+        -30.184,
+        -51.182
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 18,
+          "max": 28
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 39
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 502.0,
+          "end": 622.0
+        }
+      ],
+      "location": [
+        -30.183,
+        -51.181
+      ]
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 44
+        },
+        {
+          "service": "s5",
+          "duration": 43
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 827.0,
+          "end": 947.0
+        }
+      ],
+      "location": [
+        -30.011,
+        -51.117
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 49
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 788.0,
+          "end": 908.0
+        }
+      ],
+      "location": [
+        -30.159,
+        -51.178
+      ]
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 31
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 811.0,
+          "end": 931.0
+        }
+      ],
+      "location": [
+        -30.163,
+        -51.174
+      ]
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 20
+        },
+        {
+          "service": "s4",
+          "duration": 41
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 844.0,
+          "end": 964.0
+        }
+      ],
+      "location": [
+        -30.152,
+        -51.14
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 12,
+          "max": 26
+        }
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "type": "s1",
+      "default_duration": 31
+    },
+    {
+      "id": "s2",
+      "type": "s2",
+      "default_duration": 20
+    },
+    {
+      "id": "s3",
+      "type": "s3",
+      "default_duration": 44
+    },
+    {
+      "id": "s4",
+      "type": "s4",
+      "default_duration": 41
+    },
+    {
+      "id": "s5",
+      "type": "s5",
+      "default_duration": 43
+    },
+    {
+      "id": "s6",
+      "type": "s6",
+      "default_duration": 33
+    }
+  ]
+}

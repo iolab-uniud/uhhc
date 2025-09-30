@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "total_tardiness": "HARD",
+      "total_waiting_time": 1,
+      "total_extra_time": "HARD",
+      "workload_balance": 1
+    },
+    "name": "J4",
+    "origin": "bazirha-caie",
+    "horizon": 1000
+  },
+  "distances": [
+    [
+      0,
+      36,
+      33,
+      23,
+      33,
+      49,
+      62,
+      41,
+      53,
+      41,
+      60
+    ],
+    [
+      36,
+      0,
+      25,
+      41,
+      13,
+      39,
+      51,
+      63,
+      36,
+      68,
+      35
+    ],
+    [
+      33,
+      25,
+      0,
+      23,
+      13,
+      62,
+      75,
+      42,
+      61,
+      74,
+      61
+    ],
+    [
+      23,
+      41,
+      23,
+      0,
+      31,
+      68,
+      81,
+      22,
+      70,
+      61,
+      74
+    ],
+    [
+      33,
+      13,
+      13,
+      31,
+      0,
+      51,
+      63,
+      53,
+      49,
+      71,
+      48
+    ],
+    [
+      49,
+      39,
+      62,
+      68,
+      51,
+      0,
+      13,
+      89,
+      9,
+      55,
+      21
+    ],
+    [
+      62,
+      51,
+      75,
+      81,
+      63,
+      13,
+      0,
+      102,
+      15,
+      62,
+      24
+    ],
+    [
+      41,
+      63,
+      42,
+      22,
+      53,
+      89,
+      102,
+      0,
+      92,
+      72,
+      96
+    ],
+    [
+      53,
+      36,
+      61,
+      70,
+      49,
+      9,
+      15,
+      92,
+      0,
+      64,
+      11
+    ],
+    [
+      41,
+      68,
+      74,
+      61,
+      71,
+      55,
+      62,
+      72,
+      64,
+      0,
+      75
+    ],
+    [
+      60,
+      35,
+      61,
+      74,
+      48,
+      21,
+      24,
+      96,
+      11,
+      75,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d1",
+      "distance_matrix_index": 0,
+      "location": [
+        41.0,
+        57.0
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s1",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    },
+    {
+      "id": "c4",
+      "abilities": [
+        "s2",
+        "s3"
+      ],
+      "departing_point": "d1",
+      "arrival_point": "d1",
+      "working_shift": {
+        "start": 0,
+        "end": 600
+      }
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 23
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 163.0,
+          "end": 283.0
+        },
+        {
+          "start": 403.0,
+          "end": 523.0
+        }
+      ],
+      "location": [
+        77.0,
+        58.0
+      ]
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 36
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 108.0,
+          "end": 228.0
+        },
+        {
+          "start": 408.0,
+          "end": 528.0
+        }
+      ],
+      "location": [
+        65.0,
+        81.0
+      ]
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 43
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 138.0,
+          "end": 258.0
+        },
+        {
+          "start": 429.0,
+          "end": 549.0
+        }
+      ],
+      "location": [
+        42.0,
+        80.0
+      ]
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 42
+        },
+        {
+          "service": "s6",
+          "duration": 34
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 124.0,
+          "end": 244.0
+        },
+        {
+          "start": 437.0,
+          "end": 557.0
+        }
+      ],
+      "location": [
+        72.0,
+        70.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s1",
+          "duration": 36
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 46.0,
+          "end": 166.0
+        },
+        {
+          "start": 399.0,
+          "end": 519.0
+        }
+      ],
+      "location": [
+        73.0,
+        19.0
+      ]
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 59
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 92.0,
+          "end": 212.0
+        },
+        {
+          "start": 402.0,
+          "end": 522.0
+        }
+      ],
+      "location": [
+        78.0,
+        7.0
+      ]
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 29
+        },
+        {
+          "service": "s6",
+          "duration": 42
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 50.0,
+          "end": 170.0
+        },
+        {
+          "start": 310.0,
+          "end": 430.0
+        }
+      ],
+      "location": [
+        25.0,
+        95.0
+      ],
+      "synchronization": {
+        "type": "independent"
+      }
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 38
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 63.0,
+          "end": 183.0
+        },
+        {
+          "start": 475.0,
+          "end": 595.0
+        }
+      ],
+      "location": [
+        82.0,
+        22.0
+      ]
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 40
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 93.0,
+          "end": 213.0
+        },
+        {
+          "start": 405.0,
+          "end": 525.0
+        }
+      ],
+      "location": [
+        18.0,
+        23.0
+      ]
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 25
+        },
+        {
+          "service": "s6",
+          "duration": 49
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 84.0,
+          "end": 204.0
+        },
+        {
+          "start": 324.0,
+          "end": 444.0
+        }
+      ],
+      "location": [
+        93.0,
+        26.0
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "type": "s1"
+    },
+    {
+      "id": "s2",
+      "type": "s2"
+    },
+    {
+      "id": "s3",
+      "type": "s3"
+    },
+    {
+      "id": "s4",
+      "type": "s4"
+    },
+    {
+      "id": "s5",
+      "type": "s5"
+    },
+    {
+      "id": "s6",
+      "type": "s6"
+    }
+  ]
+}

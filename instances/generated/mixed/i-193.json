@@ -1,0 +1,1614 @@
+{
+  "metadata": {
+    "time_window_met": "at_service_end",
+    "cost_components": {
+      "travel_time": 9,
+      "total_tardiness": 3,
+      "highest_tardiness": 4,
+      "total_waiting_time": 7,
+      "total_extra_time": 3,
+      "max_idle_time": 51,
+      "caregiver_preferences": 5,
+      "optional_patients": 140,
+      "missed_lunch_break": 70
+    },
+    "name": "mixed-generated/instance-Kapfenberg-r_40-p_25-dp_1-apt_same_as_departure-h720-twm_at_service_end-rs_110-inc_0.1-opt_0.1-dtw_0.1-pcgr_0.75-sc_(5, 5)-sp_0.6",
+    "origin": "generated",
+    "horizon": 720,
+    "generator_info": {
+      "city": "Kapfenberg",
+      "radius": 40.0,
+      "patients": 25,
+      "departing_points": 1,
+      "arrival_points": 0,
+      "arrival_point_type": "same_as_departure",
+      "sync_rates": [
+        0.6,
+        0.08,
+        0.17,
+        0.15
+      ],
+      "incompatibility": 0.1,
+      "service_classes": [
+        5,
+        5
+      ],
+      "optional_rate": 0.1,
+      "double_time_window_rate": 0.1,
+      "preferred_caregiver_rate": 0.75,
+      "no_intersect_administrative": false,
+      "patient_config": {
+        "time_windows": [
+          30,
+          45,
+          60,
+          75,
+          90,
+          120,
+          120
+        ],
+        "treatment_durations": [
+          15,
+          30,
+          45,
+          60
+        ],
+        "treatment_duration_biases": [
+          0.35,
+          0.35,
+          0.2,
+          0.1
+        ],
+        "sequential_distances": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          75,
+          90
+        ],
+        "time_window_granularity": 15
+      },
+      "caregiver_config": {
+        "shift_durations": [
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          600
+        ],
+        "shift_granularity": 30
+      },
+      "random_seed": 110
+    }
+  },
+  "distances": [
+    [
+      0,
+      39,
+      23,
+      15,
+      11,
+      30,
+      28,
+      28,
+      19,
+      16,
+      52,
+      22,
+      23,
+      15,
+      18,
+      11,
+      9,
+      13,
+      10,
+      11,
+      14,
+      6,
+      7,
+      21,
+      10,
+      14
+    ],
+    [
+      38,
+      0,
+      48,
+      34,
+      39,
+      58,
+      17,
+      60,
+      29,
+      45,
+      36,
+      20,
+      52,
+      47,
+      47,
+      43,
+      37,
+      37,
+      42,
+      30,
+      43,
+      40,
+      40,
+      31,
+      42,
+      34
+    ],
+    [
+      23,
+      48,
+      0,
+      28,
+      26,
+      45,
+      41,
+      23,
+      27,
+      32,
+      31,
+      35,
+      37,
+      34,
+      34,
+      30,
+      16,
+      26,
+      24,
+      24,
+      30,
+      25,
+      25,
+      22,
+      29,
+      26
+    ],
+    [
+      14,
+      35,
+      27,
+      0,
+      16,
+      35,
+      24,
+      36,
+      15,
+      21,
+      57,
+      18,
+      29,
+      23,
+      23,
+      19,
+      13,
+      13,
+      19,
+      6,
+      19,
+      16,
+      16,
+      17,
+      18,
+      8
+    ],
+    [
+      12,
+      41,
+      28,
+      17,
+      0,
+      20,
+      30,
+      31,
+      21,
+      7,
+      57,
+      25,
+      27,
+      7,
+      7,
+      14,
+      14,
+      16,
+      13,
+      14,
+      4,
+      11,
+      15,
+      23,
+      7,
+      16
+    ],
+    [
+      29,
+      58,
+      45,
+      34,
+      31,
+      0,
+      47,
+      48,
+      38,
+      16,
+      74,
+      42,
+      44,
+      26,
+      26,
+      31,
+      31,
+      33,
+      31,
+      31,
+      23,
+      28,
+      32,
+      40,
+      26,
+      33
+    ],
+    [
+      27,
+      17,
+      40,
+      24,
+      29,
+      48,
+      0,
+      49,
+      18,
+      34,
+      53,
+      9,
+      42,
+      36,
+      36,
+      32,
+      26,
+      26,
+      32,
+      19,
+      32,
+      29,
+      29,
+      20,
+      31,
+      23
+    ],
+    [
+      27,
+      60,
+      23,
+      36,
+      29,
+      48,
+      50,
+      0,
+      41,
+      35,
+      47,
+      44,
+      46,
+      31,
+      34,
+      26,
+      33,
+      35,
+      19,
+      33,
+      31,
+      26,
+      31,
+      43,
+      25,
+      35
+    ],
+    [
+      18,
+      29,
+      27,
+      15,
+      20,
+      39,
+      18,
+      41,
+      0,
+      25,
+      56,
+      13,
+      33,
+      27,
+      27,
+      23,
+      17,
+      17,
+      23,
+      10,
+      24,
+      21,
+      21,
+      6,
+      23,
+      14
+    ],
+    [
+      17,
+      46,
+      33,
+      22,
+      19,
+      16,
+      35,
+      36,
+      26,
+      0,
+      62,
+      29,
+      31,
+      14,
+      14,
+      19,
+      18,
+      20,
+      18,
+      18,
+      10,
+      16,
+      20,
+      28,
+      13,
+      21
+    ],
+    [
+      52,
+      36,
+      31,
+      57,
+      55,
+      75,
+      53,
+      47,
+      56,
+      61,
+      0,
+      56,
+      66,
+      61,
+      63,
+      57,
+      45,
+      55,
+      49,
+      54,
+      59,
+      54,
+      54,
+      52,
+      55,
+      55
+    ],
+    [
+      21,
+      20,
+      35,
+      18,
+      23,
+      42,
+      9,
+      44,
+      13,
+      28,
+      56,
+      0,
+      36,
+      30,
+      30,
+      26,
+      20,
+      20,
+      26,
+      13,
+      27,
+      24,
+      24,
+      15,
+      26,
+      17
+    ],
+    [
+      23,
+      53,
+      37,
+      29,
+      25,
+      44,
+      42,
+      46,
+      33,
+      31,
+      66,
+      36,
+      0,
+      33,
+      33,
+      29,
+      22,
+      27,
+      28,
+      25,
+      29,
+      26,
+      26,
+      35,
+      28,
+      28
+    ],
+    [
+      15,
+      47,
+      34,
+      23,
+      17,
+      26,
+      36,
+      31,
+      27,
+      12,
+      61,
+      31,
+      33,
+      0,
+      12,
+      16,
+      20,
+      22,
+      13,
+      20,
+      8,
+      14,
+      19,
+      29,
+      8,
+      22
+    ],
+    [
+      18,
+      47,
+      34,
+      23,
+      20,
+      26,
+      36,
+      35,
+      27,
+      13,
+      63,
+      31,
+      33,
+      12,
+      0,
+      20,
+      20,
+      22,
+      17,
+      20,
+      8,
+      18,
+      21,
+      29,
+      11,
+      22
+    ],
+    [
+      11,
+      43,
+      30,
+      20,
+      12,
+      31,
+      33,
+      26,
+      24,
+      18,
+      57,
+      27,
+      29,
+      16,
+      20,
+      0,
+      16,
+      18,
+      9,
+      16,
+      16,
+      9,
+      14,
+      26,
+      11,
+      18
+    ],
+    [
+      8,
+      37,
+      16,
+      13,
+      12,
+      31,
+      26,
+      32,
+      17,
+      17,
+      45,
+      21,
+      22,
+      19,
+      19,
+      15,
+      0,
+      11,
+      15,
+      10,
+      16,
+      11,
+      11,
+      19,
+      14,
+      11
+    ],
+    [
+      13,
+      37,
+      26,
+      13,
+      14,
+      34,
+      26,
+      35,
+      17,
+      20,
+      55,
+      20,
+      27,
+      22,
+      22,
+      18,
+      11,
+      0,
+      17,
+      10,
+      18,
+      15,
+      15,
+      19,
+      17,
+      10
+    ],
+    [
+      10,
+      43,
+      24,
+      19,
+      12,
+      31,
+      32,
+      19,
+      23,
+      17,
+      49,
+      26,
+      28,
+      13,
+      17,
+      9,
+      15,
+      17,
+      0,
+      16,
+      13,
+      9,
+      14,
+      25,
+      8,
+      18
+    ],
+    [
+      11,
+      30,
+      25,
+      6,
+      13,
+      32,
+      19,
+      33,
+      10,
+      18,
+      54,
+      13,
+      26,
+      20,
+      20,
+      16,
+      10,
+      10,
+      16,
+      0,
+      17,
+      13,
+      14,
+      12,
+      15,
+      7
+    ],
+    [
+      13,
+      42,
+      29,
+      19,
+      15,
+      22,
+      32,
+      31,
+      23,
+      8,
+      59,
+      26,
+      28,
+      8,
+      8,
+      15,
+      15,
+      17,
+      13,
+      15,
+      0,
+      13,
+      16,
+      25,
+      8,
+      17
+    ],
+    [
+      5,
+      41,
+      25,
+      17,
+      10,
+      29,
+      30,
+      26,
+      21,
+      15,
+      55,
+      24,
+      26,
+      14,
+      17,
+      9,
+      11,
+      15,
+      9,
+      14,
+      14,
+      0,
+      9,
+      23,
+      8,
+      16
+    ],
+    [
+      7,
+      41,
+      25,
+      17,
+      13,
+      32,
+      30,
+      32,
+      21,
+      19,
+      55,
+      24,
+      26,
+      19,
+      21,
+      14,
+      11,
+      16,
+      14,
+      14,
+      17,
+      9,
+      0,
+      23,
+      14,
+      16
+    ],
+    [
+      20,
+      31,
+      23,
+      17,
+      22,
+      41,
+      20,
+      42,
+      6,
+      27,
+      52,
+      15,
+      35,
+      29,
+      29,
+      25,
+      19,
+      19,
+      25,
+      12,
+      26,
+      22,
+      23,
+      0,
+      24,
+      16
+    ],
+    [
+      10,
+      43,
+      30,
+      19,
+      11,
+      26,
+      32,
+      26,
+      23,
+      12,
+      56,
+      26,
+      28,
+      8,
+      11,
+      11,
+      15,
+      17,
+      8,
+      16,
+      8,
+      8,
+      14,
+      25,
+      0,
+      18
+    ],
+    [
+      13,
+      34,
+      26,
+      8,
+      15,
+      34,
+      23,
+      35,
+      14,
+      20,
+      55,
+      17,
+      28,
+      22,
+      22,
+      18,
+      12,
+      10,
+      18,
+      7,
+      18,
+      15,
+      16,
+      16,
+      17,
+      0
+    ]
+  ],
+  "terminal_points": [
+    {
+      "id": "d0",
+      "distance_matrix_index": 0,
+      "location": [
+        15.326323026169506,
+        47.45905624695688
+      ]
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "c1",
+      "abilities": [
+        "s7"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 240,
+        "end": 660
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c2",
+      "abilities": [
+        "s2",
+        "s4"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 360,
+        "end": 660
+      },
+      "lunch_break": false
+    },
+    {
+      "id": "c3",
+      "abilities": [
+        "s3",
+        "s0"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 180,
+        "end": 600
+      },
+      "lunch_break": true
+    },
+    {
+      "id": "c4",
+      "abilities": [
+        "s6",
+        "s5",
+        "s8",
+        "s9"
+      ],
+      "departing_point": "d0",
+      "arrival_point": "d0",
+      "working_shift": {
+        "start": 30,
+        "end": 420
+      },
+      "lunch_break": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "p0",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 1,
+      "time_windows": [
+        {
+          "start": 120,
+          "end": 300
+        },
+        {
+          "start": 330,
+          "end": 390
+        }
+      ],
+      "location": [
+        15.574347597453881,
+        47.66313270530102
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p1",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 2,
+      "time_windows": [
+        {
+          "start": 165,
+          "end": 405
+        }
+      ],
+      "location": [
+        15.323263141610635,
+        47.55841549043657
+      ],
+      "optional": false
+    },
+    {
+      "id": "p2",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        },
+        {
+          "service": "s8",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 3,
+      "time_windows": [
+        {
+          "start": 135,
+          "end": 375
+        }
+      ],
+      "location": [
+        15.450070669704157,
+        47.49803137563516
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "optional": true
+    },
+    {
+      "id": "p3",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 4,
+      "time_windows": [
+        {
+          "start": 525,
+          "end": 615
+        }
+      ],
+      "location": [
+        15.281147621655393,
+        47.40714264244323
+      ],
+      "optional": false
+    },
+    {
+      "id": "p4",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 30
+        },
+        {
+          "service": "s8",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 5,
+      "time_windows": [
+        {
+          "start": 105,
+          "end": 195
+        }
+      ],
+      "location": [
+        15.438739725127792,
+        47.39035614016808
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 30
+        }
+      },
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p5",
+      "required_services": [
+        {
+          "service": "s0",
+          "duration": 15
+        },
+        {
+          "service": "s8",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 6,
+      "time_windows": [
+        {
+          "start": 210,
+          "end": 450
+        }
+      ],
+      "location": [
+        15.660353068727892,
+        47.59556169341917
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "optional": false
+    },
+    {
+      "id": "p6",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 15
+        },
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 7,
+      "time_windows": [
+        {
+          "start": 195,
+          "end": 345
+        }
+      ],
+      "location": [
+        15.17298170985314,
+        47.52055830540971
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p7",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 8,
+      "time_windows": [
+        {
+          "start": 165,
+          "end": 225
+        }
+      ],
+      "location": [
+        15.507790240768305,
+        47.54022965158277
+      ],
+      "preferred_caregivers": [
+        "c2"
+      ],
+      "optional": true
+    },
+    {
+      "id": "p8",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 9,
+      "time_windows": [
+        {
+          "start": 45,
+          "end": 285
+        }
+      ],
+      "location": [
+        15.317101462673135,
+        47.369313037675035
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p9",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 10,
+      "time_windows": [
+        {
+          "start": 225,
+          "end": 405
+        }
+      ],
+      "location": [
+        15.301982168431955,
+        47.73981901752375
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p10",
+      "required_services": [
+        {
+          "service": "s3",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 11,
+      "time_windows": [
+        {
+          "start": 315,
+          "end": 555
+        }
+      ],
+      "location": [
+        15.630895660687397,
+        47.570023294854956
+      ],
+      "preferred_caregivers": [
+        "c3"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p11",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 12,
+      "time_windows": [
+        {
+          "start": 165,
+          "end": 315
+        }
+      ],
+      "location": [
+        15.335845963022082,
+        47.42251222727196
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p12",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 45
+        },
+        {
+          "service": "s6",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 13,
+      "time_windows": [
+        {
+          "start": 315,
+          "end": 555
+        }
+      ],
+      "location": [
+        15.282062764927115,
+        47.41611737498201
+      ],
+      "synchronization": {
+        "type": "independent"
+      },
+      "optional": false
+    },
+    {
+      "id": "p13",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 45
+        },
+        {
+          "service": "s7",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 14,
+      "time_windows": [
+        {
+          "start": 0,
+          "end": 120
+        }
+      ],
+      "location": [
+        15.295277854217563,
+        47.415474950082725
+      ],
+      "synchronization": {
+        "type": "independent"
+      },
+      "preferred_caregivers": [
+        "c2",
+        "c1"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p14",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 15,
+      "time_windows": [
+        {
+          "start": 345,
+          "end": 585
+        }
+      ],
+      "location": [
+        15.285727394836103,
+        47.45201578646987
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p15",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 16,
+      "time_windows": [
+        {
+          "start": 225,
+          "end": 465
+        }
+      ],
+      "location": [
+        15.368793711199663,
+        47.48402858015737
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p16",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 45
+        }
+      ],
+      "distance_matrix_index": 17,
+      "time_windows": [
+        {
+          "start": 510,
+          "end": 630
+        }
+      ],
+      "location": [
+        15.433061590876148,
+        47.46280130755112
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p17",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 15
+        },
+        {
+          "service": "s5",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 18,
+      "time_windows": [
+        {
+          "start": 120,
+          "end": 270
+        }
+      ],
+      "location": [
+        15.272502919988323,
+        47.45265712142203
+      ],
+      "synchronization": {
+        "type": "simultaneous"
+      },
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p18",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 19,
+      "time_windows": [
+        {
+          "start": 15,
+          "end": 165
+        }
+      ],
+      "location": [
+        15.451017638665151,
+        47.507003971827935
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p19",
+      "required_services": [
+        {
+          "service": "s4",
+          "duration": 30
+        },
+        {
+          "service": "s8",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 20,
+      "time_windows": [
+        {
+          "start": 435,
+          "end": 675
+        }
+      ],
+      "location": [
+        15.267934505183206,
+        47.40778333703729
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 15
+        }
+      },
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p20",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 30
+        }
+      ],
+      "distance_matrix_index": 21,
+      "time_windows": [
+        {
+          "start": 255,
+          "end": 315
+        },
+        {
+          "start": 480,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.31309717246657,
+        47.459702521779846
+      ],
+      "optional": false
+    },
+    {
+      "id": "p21",
+      "required_services": [
+        {
+          "service": "s8",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 22,
+      "time_windows": [
+        {
+          "start": 360,
+          "end": 420
+        }
+      ],
+      "location": [
+        15.328172246982865,
+        47.47700426507384
+      ],
+      "optional": false
+    },
+    {
+      "id": "p22",
+      "required_services": [
+        {
+          "service": "s2",
+          "duration": 30
+        },
+        {
+          "service": "s5",
+          "duration": 60
+        }
+      ],
+      "distance_matrix_index": 23,
+      "time_windows": [
+        {
+          "start": 450,
+          "end": 690
+        }
+      ],
+      "location": [
+        15.49741461351652,
+        47.567813759472465
+      ],
+      "synchronization": {
+        "type": "sequential",
+        "distance": {
+          "min": 15,
+          "max": 90
+        }
+      },
+      "preferred_caregivers": [
+        "c4",
+        "c2"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p23",
+      "required_services": [
+        {
+          "service": "s6",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 24,
+      "time_windows": [
+        {
+          "start": 420,
+          "end": 540
+        }
+      ],
+      "location": [
+        15.270674339496676,
+        47.434707762995046
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    },
+    {
+      "id": "p24",
+      "required_services": [
+        {
+          "service": "s5",
+          "duration": 15
+        }
+      ],
+      "distance_matrix_index": 25,
+      "time_windows": [
+        {
+          "start": 105,
+          "end": 285
+        }
+      ],
+      "location": [
+        15.461407633741409,
+        47.47942331957511
+      ],
+      "preferred_caregivers": [
+        "c4"
+      ],
+      "optional": false
+    }
+  ],
+  "services": [
+    {
+      "id": "s0",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s1",
+      "type": "t0",
+      "default_duration": 60
+    },
+    {
+      "id": "s2",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s3",
+      "type": "t0",
+      "default_duration": 30
+    },
+    {
+      "id": "s4",
+      "type": "t0",
+      "default_duration": 45
+    },
+    {
+      "id": "s5",
+      "type": "t1",
+      "default_duration": 15
+    },
+    {
+      "id": "s6",
+      "type": "t1",
+      "default_duration": 15
+    },
+    {
+      "id": "s7",
+      "type": "t1",
+      "default_duration": 45
+    },
+    {
+      "id": "s8",
+      "type": "t1",
+      "default_duration": 30
+    },
+    {
+      "id": "s9",
+      "type": "t1",
+      "default_duration": 15
+    }
+  ],
+  "lunch_breaks": {
+    "start": 180,
+    "end": 360,
+    "min_duration": 30
+  }
+}

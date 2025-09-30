@@ -1,0 +1,118 @@
+{
+  "cost": {
+    "objective": 769,
+    "violations": 0
+  },
+  "cost_components": {
+    "total_extra_time": 0,
+    "total_tardiness": 0,
+    "travel_time": 769
+  },
+  "global_ordering": [
+    "p4",
+    "p3",
+    "p9",
+    "p5",
+    "p8",
+    "p1",
+    "p2",
+    "p6",
+    "p10",
+    "p7"
+  ],
+  "routes": [
+    {
+      "caregiver_id": "c1",
+      "locations": [
+        {
+          "arrival_time": 166,
+          "departure_time": 182,
+          "patient": "p3",
+          "service": "s1"
+        },
+        {
+          "arrival_time": 329,
+          "departure_time": 346,
+          "patient": "p9",
+          "service": "s3"
+        },
+        {
+          "arrival_time": 378,
+          "departure_time": 396,
+          "patient": "p2",
+          "service": "s3"
+        },
+        {
+          "arrival_time": 440,
+          "departure_time": 458,
+          "patient": "p10",
+          "service": "s1"
+        },
+        {
+          "arrival_time": 474,
+          "departure_time": 492,
+          "patient": "p7",
+          "service": "s2"
+        }
+      ]
+    },
+    {
+      "caregiver_id": "c2",
+      "locations": [
+        {
+          "arrival_time": 76,
+          "departure_time": 92,
+          "patient": "p4",
+          "service": "s6"
+        },
+        {
+          "arrival_time": 166,
+          "departure_time": 182,
+          "patient": "p3",
+          "service": "s4"
+        },
+        {
+          "arrival_time": 227,
+          "departure_time": 244,
+          "patient": "p1",
+          "service": "s4"
+        },
+        {
+          "arrival_time": 364,
+          "departure_time": 381,
+          "patient": "p6",
+          "service": "s5"
+        }
+      ]
+    },
+    {
+      "caregiver_id": "c3",
+      "locations": [
+        {
+          "arrival_time": 76,
+          "departure_time": 96,
+          "patient": "p4",
+          "service": "s2"
+        },
+        {
+          "arrival_time": 155,
+          "departure_time": 174,
+          "patient": "p5",
+          "service": "s2"
+        },
+        {
+          "arrival_time": 216,
+          "departure_time": 231,
+          "patient": "p8",
+          "service": "s3"
+        },
+        {
+          "arrival_time": 293,
+          "departure_time": 312,
+          "patient": "p1",
+          "service": "s2"
+        }
+      ]
+    }
+  ]
+}
