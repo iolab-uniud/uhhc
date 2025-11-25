@@ -38,8 +38,15 @@ authors:
     given-names: Andrea
     orcid: "https://orcid.org/0000-0001-6965-0536"
 version: 0.9.9
+date-released: 2025-11-25
 repository-code: "https://github.com/iolab-uniud/uhhc"
-license: CC-BY
+license: CC-BY-4.0
+keywords:
+  - home healthcare
+  - routing and scheduling
+  - optimization
+  - vehicle routing problem
+  - benchmark instances
 preferred-citation:
   type: article
   title: "A Unified Formulation for Home Healthcare Routing and Scheduling Problems"
