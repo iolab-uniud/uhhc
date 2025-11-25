@@ -34,14 +34,14 @@ If you use this repository in your research, please cite our paper:
 #### BibTeX
 
 ```bibtex
-@article{YourKey2025,
-  title        = {Your Paper Title},
-  author       = {First Author and Second Author and ...},
-  journal      = {Journal or Conference Name},
-  year         = {2025},
-  volume       = {X},
-  number       = {Y},
-  pages        = {1--12},
+@article{ceschia2026unified,
+  title        = {A Unified Formulation for Home Healthcare Routing and Scheduling Problems},
+  author       = {Ceschia, Sara and Da Ros, Francesca and Di Gaspero, Luca and Mancini, Simona and Maniezzo, Vittorio and Montemanni, Roberto and Rosati, Roberto Maria and Schaerf, Andrea},
+  journal      = {International Transactions in Operational Research},
+  year         = {2026},
+  volume       = {TBD},
+  number       = {TBD},
+  pages        = {1--43},
   doi          = {10.xxxx/xxxxx},
   url          = {https://doi.org/10.xxxx/xxxxx}
 }
