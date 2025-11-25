@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1066923342.svg)](https://zenodo.org/badge/latestdoi/1066923342)
+
 # UHHC Problem Repository: Unified Home Healthcare Routing and Scheduling
 
 The UHHC is a complex optimization problem that involves planning and scheduling home healthcare services, considering constraints such as caregiver availability, patient requirements, time windows, and routing logistics.
