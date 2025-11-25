@@ -13,6 +13,18 @@ The content refers to the [paper](#cite).
 - `managerial-insights`: contains the analysis of selected instances used to get managerial insights
 - `solutions`: contains the solutions of the instances as reported in the paper
 
+## Installation
+   
+**Note:** This repository uses submodules for the `toolbox`. To clone with all dependencies:
+```bash
+   git clone --recursive https://github.com/iolab-uniud/uhhc.git
+```
+   
+Or if you've already cloned:
+```bash
+   git submodule update --init --recursive
+```
+
 ## Cite
 
 If you use this repository in your research, please cite our paper:
