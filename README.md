@@ -25,6 +25,8 @@ Or if you've already cloned:
    git submodule update --init --recursive
 ```
 
+As for the specific instructions for the toolbox refer to the (uhhc-toolbox)[https://github.com/iolab-uniud/uhhc-toolbox] GitHub repository.
+
 ## Cite
 
 If you use this repository in your research, please cite our paper:
