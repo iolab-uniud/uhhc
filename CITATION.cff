@@ -1,26 +1,74 @@
 # CITATION.cff
 cff-version: 1.2.0
-title: ProjectName
-message: "If you use this software, please cite the paper and/or the software as below."
-type: software
-abstract: Short one-line description of what the repo does.
+title: UHHC
+message: "If you use this dataset or the related software, please cite it as below."
+type: dataset
+title: "UHHC Problem Repository: Unified Home Healthcare Routing and Scheduling"
+abstract: >
+  The UHHC is a complex optimization problem that involves planning and 
+  scheduling home healthcare services, considering constraints such as 
+  caregiver availability, patient requirements, time windows, and routing 
+  logistics. This repository is intended for researchers and practitioners 
+  working on optimization problems in the domain of home healthcare logistics, 
+  providing instances, solutions, an instance generation and solution 
+  validation toolbox.
 authors:
-  - family-names: AuthorSurname
-    given-names: AuthorName
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  # add more authors
-version: 1.0.0
-repository-code: "https://github.com/org-or-user/repo"
-license: MIT
+  - family-names: Ceschia
+    given-names: Sara
+    orcid: "https://orcid.org/0000-0003-1191-1929"
+  - family-names: "Da Ros"
+    given-names: Francesca
+    orcid: "https://orcid.org/0000-0001-7026-4165"
+  - family-names: "Di Gaspero"
+    given-names: Luca
+    orcid: "https://orcid.org/0000-0003-0299-6086"
+  - family-names: Mancini
+    given-names: Simona
+    orcid: "https://orcid.org/0000-0001-5287-2255"
+  - family-names: Maniezzo
+    given-names: Vittorio
+    orcid: "https://orcid.org/0000-0002-1220-1235"
+  - family-names: Montemanni
+    given-names: Roberto
+    orcid: "https://orcid.org/0000-0002-0229-0465"
+  - family-names: Rosati
+    given-names: "Roberto Maria"
+    orcid: "https://orcid.org/0000-0001-9560-6301"
+  - family-names: Schaerf
+    given-names: Andrea
+    orcid: "https://orcid.org/0000-0001-6965-0536"
+version: 0.9.9
+repository-code: "https://github.com/iolab-uniud/uhhc"
+license: CC-BY
 preferred-citation:
   type: article
-  title: "Your Paper Title"
+  title: "A Unified Formulation for Home Healthcare Routing and Scheduling Problems"
   authors:
-    - family-names: AuthorSurname
-      given-names: AuthorName
-      orcid: "https://orcid.org/0000-0000-0000-0000"
-    # …
-  journal: Journal or Conference Name
-  year: 2025
+    - family-names: Ceschia
+      given-names: Sara
+      orcid: "https://orcid.org/0000-0003-1191-1929"
+    - family-names: "Da Ros"
+      given-names: Francesca
+      orcid: "https://orcid.org/0000-0001-7026-4165"
+    - family-names: "Di Gaspero"
+      given-names: Luca
+      orcid: "https://orcid.org/0000-0003-0299-6086"
+    - family-names: Mancini
+      given-names: Simona
+      orcid: "https://orcid.org/0000-0001-5287-2255"
+    - family-names: Maniezzo
+      given-names: Vittorio
+      orcid: "https://orcid.org/0000-0002-1220-1235"
+    - family-names: Montemanni
+      given-names: Roberto
+      orcid: "https://orcid.org/0000-0002-0229-0465"
+    - family-names: Rosati
+      given-names: "Roberto Maria"
+      orcid: "https://orcid.org/0000-0001-9560-6301"
+    - family-names: Schaerf
+      given-names: Andrea
+      orcid: "https://orcid.org/0000-0001-6965-0536"
+  journal: International Transactions on Operational Research
+  year: 2026
   doi: 10.xxxx/xxxxx
   url: "https://doi.org/10.xxxx/xxxxx"
