@@ -44,7 +44,7 @@ If you use this repository in your research, please cite our paper:
   volume       = {TBD},
   number       = {TBD},
   pages        = {1--43},
-  doi          = {10.xxxx/xxxxx},
-  url          = {https://doi.org/10.xxxx/xxxxx}
+  doi          = {10.1111/itor.70140},
+  url          = {https://doi.org/10.1111/itor.70140}
 }
 ```
